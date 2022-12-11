@@ -1,0 +1,6 @@
+# Folders & files
+node_modules
+package-lock.json
+
+# gohugo
+test
