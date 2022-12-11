@@ -2,7 +2,6 @@
   "name": "@zkreations/icons",
   "version": "1.0.0",
   "description": "Handcrafted line by line, for as little code as possible",
-  "main": "index.js",
   "scripts": {
     "build": "npm-run-all --sequential build:*",
     "build:svg": "node ./build/svg.js",
@@ -10,6 +9,9 @@
     "build:pug": "node ./build/pug.js",
     "build:blogger": "node ./build/blogger.js"
   },
+  "files": [
+    "icons"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zkreations/icons.git"
