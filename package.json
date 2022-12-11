@@ -1,5 +1,5 @@
 {
-  "name": "icons",
+  "name": "@zkreations/icons",
   "version": "1.0.0",
   "description": "Handcrafted line by line, for as little code as possible",
   "main": "index.js",
