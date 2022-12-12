@@ -48,6 +48,7 @@
       <b:case value='bars-filter'/><path d="M3 6h18M6 12h12m-9 6h6"/>
       <b:case value='bars-sort'/><path d="M3 6h18M3 12h12M3 18h6"/>
       <b:case value='bars'/><path d="M3 6h18M3 12h18M3 18h18"/>
+      <b:case value='binance'/><path d="m12 7 5 5-5 5-5-5Zm-9 3-2 2 2 2m18-4 2 2-2 2M6 7l6-6 6 6m0 10-6 6-6-6"/>
       <b:case value='bitcoin'/><path d="M5 5h8a1 1 0 0 1 0 6m-6 0h7a1 1 0 0 1 0 8H5M7 2v20m4-20v3m0 14v3"/>
       <b:case value='blogger'/><path d="M8 15h8M8 9h4m7 0q-1 0-1-1a6 6 0 0 0-6-6H8a6 6 0 0 0-6 6v8a6 6 0 0 0 6 6h8a6 6 0 0 0 6-6v-5a2 2 0 0 0-2-2Z"/>
       <b:case value='bolt'/><path d="M13 2v8h7l-9 12v-8H4Z"/>
