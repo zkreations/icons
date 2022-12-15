@@ -125,6 +125,7 @@
       <b:case value='git-branch'/><circle cx="6" cy="5" r="3"/><circle cx="18" cy="12" r="3"/><circle cx="6" cy="19" r="3"/><path d="M6 8v8m11-1s-2 4-8 4"/>
       <b:case value='git-commit'/><circle cx="12" cy="12" r="4"/><path d="M1.1 12H7m10 0h6"/>
       <b:case value='git-fork'/><circle cx="6" cy="5" r="3"/><circle cx="18" cy="5" r="3"/><circle cx="12" cy="19" r="3"/><path d="M6 8v1a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V8m-6 4v4"/>
+      <b:case value='git-issues'/><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2"/>
       <b:case value='git-merge'/><circle cx="6" cy="5" r="3"/><circle cx="18" cy="12" r="3"/><circle cx="6" cy="19" r="3"/><path d="M15 12s-6 1-9-4v8"/>
       <b:case value='git-pull'/><circle cx="6" cy="5" r="3"/><circle cx="18" cy="19" r="3"/><circle cx="6" cy="19" r="3"/><path d="M6 8v8m7-10h3a2 2 0 0 1 2 2v7"/>
       <b:case value='github'/><path d="M9 22v-3q0-2 1-3A7 6.5 0 0 1 5 5Q4 3 5 1q3 0 4 2 3.5-1 7 0 1-2 4-2 1 2 0 4a7 6.5 0 0 1-5 11q1 1 1 3v3m-7-3c-4 1-4-2-7-3"/>
