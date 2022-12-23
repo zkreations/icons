@@ -10,7 +10,8 @@
     "build:blogger": "node ./build/blogger.js"
   },
   "files": [
-    "icons"
+    "icons",
+    "variants"
   ],
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   },
   "keywords": [],
   "author": "@danieIabel",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zkreations/icons/issues"
   },
