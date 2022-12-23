@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="header-wrapper container flex-mobile">
+    <h1 class="header-logo">
+      {% include_relative {{ page.pathSvg }}meteor.svg %}
+    </h1>
+    <ul class="header-menu">
+      {% for link in include.links %}
+      <li>
+        <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>

@@ -1,0 +1,227 @@
+# Categorías
+airplay: video, music-audio
+alien: astronomy, ufo
+align-center: text-formatting
+align-justify: text-formatting
+align-left: text-formatting
+align-right: text-formatting
+anchor: maritime, logistics
+angle-down: arrows
+angle-left: arrows
+angle-right: arrows
+angle-up: arrows
+angles-down: arrows
+angles-left: arrows
+angles-right: arrows
+angles-up: arrows
+arrow-down-left: arrows
+arrow-down-long: arrows
+arrow-down-numbers: arrows
+arrow-down-right: arrows
+arrow-down-shapes: arrows
+arrow-down: arrows
+arrow-left-long: arrows
+arrow-left: arrows
+arrow-refresh: arrows
+arrow-right-long: arrows
+arrow-right: arrows
+arrow-rotate: arrows
+arrow-trend-down: arrows
+arrow-trend-up: arrows
+arrow-up-left: arrows
+arrow-up-long: arrows
+arrow-up-numbers: arrows
+arrow-up-right: arrows
+arrow-up-shapes: arrows
+arrow-up: arrows
+arrows-rotate: arrows
+at: communication, email
+bag-shopping: shopping, maps
+bars-filter: editing, coding
+bars-sort: editing, coding
+bars: editing, coding
+binance: brand
+bitcoin: money, shopping
+blogger: brand
+bolt: photos-images, weather, energy
+book-open: education
+book: education, business, maps, writing
+bookmark-alt: shopping, maps, shapes, writing, business
+bookmark: shopping, maps, shapes, writing
+boolean: design, coding
+box-archive: moving, business, files, coding, writing
+brackets-angled: coding
+brackets-curly: coding
+brackets-round: coding
+brackets: coding
+bullhorn: communication, business, shopping, marketing, political
+calendar: time, business, shapes
+cart-shopping: shopping, maps
+chain: editing
+check-double: editing, text-formatting, political
+check: editing, text-formatting
+chevron-down: arrows
+chevron-left: arrows
+chevron-right: arrows
+chevron-up: arrows
+chevrons-down: arrows
+chevrons-left: arrows
+chevrons-right: arrows
+chevrons-up: arrows
+circle-check: editing, text-formatting, toggle
+circle-exclamation: alert
+circle-xmark: alert, mathematics
+circle: video, toggle, shapes
+circles: shapes
+clock-rotate: arrows, time
+clock: time
+cloud: weather, connectivity, shapes
+code: coding
+codepen: brand
+codesandbox: brand
+coffee: holidays, food-beverage
+coinbase: brand
+columns-3: text-formatting, design, layout
+columns: text-formatting, design, layout
+command: editing, text-formatting
+comment-dots: communication
+comment: communication, shapes
+copy: business, design, files
+copyright: business
+credit-card: money, shopping
+cube: editing, design, coding
+desktop: devices-hardware
+disqus: brand
+dogecoin: money, shopping
+dollar: money, shopping
+download-cloud: arrows, connectivity
+download: arrows, devices-hardware
+dribbble: brand
+droplet: photos-images, design, maps
+ellipsis-vertical: editing
+ellipsis: editing
+envelope: communication, business, writing, email
+equals: mathematics
+euro: money, shopping
+facebook-alt: brand, social
+facebook: brand, social
+figma: brand
+file-glitch: business, files, coding, writing
+file-search: business, files, coding, writing
+file: business, files, coding, writing
+filter: coding, science
+fingerprint: security, accessibility
+fire: nature, maps, energy, science, camping
+gear: cog
+get-pocket: brand, social
+git-branch: coding
+git-commit: coding
+git-issues: coding
+git-fork: coding
+git-merge: coding
+git-pull: coding
+github: brand
+gitlab: brand
+globe-stand: education
+globe: business, connectivity, astronomy, maps
+google-drive: brand
+grip-dots-vertical: editing
+grip-dots: editing
+gumroad: brand
+heart: shapes
+home: buildings, maps
+image: photos-images, maps
+images: photos-images, maps
+indent: text-formatting
+instagram: brand, social
+key-skeleton: security, science
+language: communication
+layout: design, layout
+letters: text-formatting
+link: editing, chain
+linkedin: brand, social
+list: text-formatting
+location-crosshairs: location , toggle, maps
+location-dot: maps, shapes
+location: maps, shapes
+lock: security
+map-pin: maps
+map: maps, camping
+mega: brand
+message-dots: communication, comments
+message: communication, comments
+meta: brand
+meteor: weather, astronomy
+minus: editing, mathematics
+moon: weather, astronomy
+numbers: communication, business, maps
+outdent: text-formatting
+paint-roller: construction, design
+paper-plane: communication, transportation, writing
+paperclip-vertical: business, writing
+paperclip: business, writing
+patreon: brand
+pause: video
+paypal: brand
+pencil: construction, editing, business, design, writing
+pinterest: brand, social
+play: video
+plug: devices-hardware, maps, energy
+plus: add, editing, mathematics, maps
+quote-left: communication, writing
+quote-right: communication, writing
+reddit: brand, social
+rhombus: shapes
+rows: text-formatting, design, layout
+rss: connectivity
+search: maps
+shapes: shapes, education
+share: social
+sidebar: coding, design, layout
+square-exclamation: alert
+square: shapes
+squares: shapes
+star: shopping, shapes
+sterling: money
+sun: spinner,sweather, energy
+table-layout: text-formatting, layout
+table-list: text-formatting, layout
+telegram: brand, social
+terminal: coding
+thumbs-down: hands, shopping
+thumbs-up: hands, shopping
+tiktok: brand, social
+trash-can: editing
+trash: editing
+triangle-exclamation: alert
+triangle: shapes
+tumblr: brand, social
+turn-down-left: arrows
+turn-down-right: arrows
+turn-left-down: arrows
+turn-left-up: arrows
+turn-right-down: arrows
+turn-right-up: arrows
+turn-up-left: arrows
+turn-up-right: arrows
+tv-retro: household
+tv: household
+twitter: brand, social
+ufo: transportation, astronomy
+unlink: editing
+upload-cloud: arrows, devices-hardware
+upload: arrows, devices-hardware
+usdt: money, shopping
+user: people
+visual-studio-code: brand
+vk: brand, social
+wave-pulse: mathematics
+wave-square: mathematics
+wave-triangle: mathematics
+wave: mathematics
+whatsapp: brand, social
+wind: weather, nature, energy
+windows: brand
+xmark: close, editing, mathematics
+yin-yang: spinners, religion
+youtube: brand

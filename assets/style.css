@@ -1,0 +1,283 @@
+:root {
+  --accent: #0284c7;
+  --accent-hover: #0369a1;
+  --accent-focus: #e0f2fe;
+
+  --bg: #fff;
+  --bg-code: #f1f5f9;
+  --bg-code-hover: #e2e8f0;
+
+  --color-title: #0f172a;
+  --color-text: #64748b;
+  --color-border: #e2e8f0;
+  --color-code: #475569;
+
+  --container: 1200px;
+  --shadow: 0px 30px 40px -10px rgb(15 23 42 / 25%);
+  --color-selection: rgba(2, 133, 199, 0.2);
+}
+
+::-moz-selection {
+  background-color: var(--color-selection)
+}
+
+::selection {
+  background-color: var(--color-selection)
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: var(--color-text);
+  background-color: var(--bg);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border-width: 0;
+  font-size: 100%;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.i {
+  width: var(--svg-size, 20px);
+  height: var(--svg-size, 20px);
+  display: block;
+  stroke: currentColor;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: var(--container);
+}
+
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header-logo {
+  --svg-size: 36px;
+  color: var(--color-code);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.header-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-hero {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--color-title);
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.hero-code {
+  background-color: var(--bg-code);
+  margin: 0;
+  font-size: 1.125rem;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  color: var(--color-code);
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.hero-code::before {
+  content: "$";
+  opacity: .5;
+}
+
+@media (min-width:768px) {
+  .header {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .header-hero {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+}
+
+.copy-code {
+  --tts-start-translate: -8px;
+  --tts-end-translate: -8px;
+}
+
+.copy-code svg {
+  opacity: 0.5;
+  transition: opacity .3s;
+}
+
+.copy-code:hover svg {
+  opacity: 1;
+}
+
+.search-form svg {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+}
+
+.search-form {
+  position: relative;
+}
+
+.icons-search {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  transition: box-shadow .3s, border-color .3s;
+  border: 1px solid var(--color-border);
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-left: 3.5rem;
+}
+
+.icons-search:focus,
+.icons-search:active {
+  outline: 0 none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0px 3px var(--accent-focus);
+}
+
+.icons-search:hover {
+  border-color: var(--accent);
+}
+
+.icons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: 1rem;
+  margin: 0;
+}
+
+.icon {
+  display: flex;
+  border-radius: .5rem;
+  position: relative;
+  padding-bottom: 100%;
+  border: 1px solid var(--color-border);
+  transition: border-color .3s, color .3s;
+  color: var(--color-title)
+}
+
+.icon:hover {
+  border-color: var(--accent);
+}
+
+.icon-actions {
+  --gap: 3px;
+  position: absolute;
+  z-index: 10;
+  top: var(--gap);
+  left: var(--gap);
+  right: var(--gap);
+  bottom: var(--gap);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  justify-content: stretch;
+  opacity: 0;
+}
+
+.icon:hover .icon-actions {
+  opacity: 1;
+}
+
+.action {
+  height: 100%;
+  font-size: 14px;
+  background-color: var(--bg-code);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background-color .3s;
+}
+
+.action:hover {
+  background-color: var(--bg-code-hover);
+}
+
+.icon-svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Utils */
+.flex-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width:767px) {
+  .flex-mobile {
+    flex-direction: column;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.icon-name,
+.icon-tags {
+  display: none;
+}

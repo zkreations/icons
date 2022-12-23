@@ -1,6 +1,6 @@
-# Folders & files
 node_modules
-package-lock.json
-
-# gohugo
-test
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

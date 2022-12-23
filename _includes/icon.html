@@ -1,0 +1,11 @@
+{% assign tags = site.data.tags[include.icon.basename] | split: ", " | join " " %}
+<li class="icon copy-block">
+  <div class="icon-actions">
+    <button class="action copy-name">Copy name</button>
+    <button class="action copy-svg">Copy code</button>
+    <a class="action" href="{{ include.icon.path }}" download>Download</a>
+  </div>
+  <span class="icon-svg">{% include_relative {{ include.icon.path }} %}</span>
+  <span class="icon-name">{{ include.icon.basename }}</span>
+  <span class="icon-tags">{{ tags }}</span>
+</li>
