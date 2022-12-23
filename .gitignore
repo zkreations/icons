@@ -2,5 +2,9 @@
 node_modules
 package-lock.json
 
-# gohugo
-test
+# jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
