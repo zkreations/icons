@@ -1,7 +1,6 @@
 <div class="icons container" id="js-icons">
   <div class="search-form">
     <input type="search" class="icons-search search" placeholder="Search {{ site.data.tags.size }} icons"/>
-    {% include_relative {{ page.pathSvg }}search.svg %}
   </div>
   <ul class="icons-grid list">
     {% for file in site.static_files %}
