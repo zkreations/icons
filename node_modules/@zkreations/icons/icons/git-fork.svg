@@ -1,0 +1,6 @@
+<svg class="i i-git-fork" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="3"/>
+  <circle cx="18" cy="5" r="3"/>
+  <circle cx="12" cy="19" r="3"/>
+  <path d="M6 8v1a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V8m-6 4v4"/>
+</svg>

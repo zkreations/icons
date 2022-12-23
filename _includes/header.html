@@ -1,7 +1,7 @@
 <header class="header">
   <div class="header-wrapper container flex-mobile">
     <h1 class="header-logo">
-      Icon
+      {% include_relative {{ page.pathSvg }}meteor.svg %}
     </h1>
     <ul class="header-menu">
       {% for link in include.links %}
