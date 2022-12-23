@@ -121,7 +121,7 @@ a {
   background-color: var(--bg-code);
   margin: 0;
   font-size: 1.125rem;
-  padding: 1.25rem;
+  padding: 1rem 0.875rem;
   border-radius: 0.5rem;
   color: var(--color-code);
   white-space: nowrap;
@@ -248,6 +248,10 @@ a {
 
 .action:hover {
   background-color: var(--bg-code-hover);
+}
+
+.icon-actions:not(:hover) .action {
+  pointer-events: none;
 }
 
 .icon-svg {
