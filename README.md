@@ -1,4 +1,4 @@
-![preview](https://raw.githubusercontent.com/zkreations/icons/main/.github/main.png)
+![cover](https://raw.githubusercontent.com/zkreations/icons/main/.github/cover.png)
 
 <p align="center">Iconos en formato 24x24 diseñados a mano línea por línea y tomando las decisiones necesarias para obtener el menor código posible.<p>
 
