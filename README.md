@@ -1,6 +1,6 @@
 ![cover](https://raw.githubusercontent.com/zkreations/icons/main/.github/cover.png)
 
-<p align="center">Iconos en formato 24x24 diseñados a mano línea por línea y tomando las decisiones necesarias para obtener el menor código posible.<p>
+<p align="center">Iconos en formato 24x24 diseñados a mano línea por línea, tomando decisiones inteligentes necesarias para obtener el menor código posible.<p>
 
 <p align="center">
   <a href="https://icons.zkreations.com/"><strong> Demo en vivo &rarr;</strong></a>
@@ -14,9 +14,9 @@
 
 ## Sobre estos iconos
 
-Los iconos en SVG son grandiosos, son escalables, pesan mucho menos que las imágenes, son editables con CSS y mucho más. Sin embargo, el problema principal (al menos para mí) es su código, el cual suele ser muy grande.
+Los iconos en SVG son escalables, pesan mucho menos que las imágenes, son editables con CSS y mucho más. Sin embargo, el problema principal (al menos para mí) es su código, el cual suele ser muy grande.
 
-Por esto he diseñado manualmente el código de cada icono con el fin de tomar decisiones inteligentes para lograr la menor cantidad de código posible. Esta labor fue más fácil de realizar gracias a la herramienta [svg-path-editor](https://yqnn.github.io/svg-path-editor/). Menos código es más fácil de manejar y cargar.
+Por esto he diseñado manualmente el código de cada icono con el fin de tomar **decisiones inteligentes** para lograr la menor cantidad de código posible. Esta labor fue más fácil de realizar gracias a la herramienta [svg-path-editor](https://yqnn.github.io/svg-path-editor/). He nombrado este pack "Meteor icons" y es de **código abierto**.
 
 ![github-path](https://raw.githubusercontent.com/zkreations/icons/main/.github/github-path.png)
 
@@ -55,31 +55,30 @@ Agrega a tu proyecto el archivo [svg-sprite.svg](https://github.com/zkreations/i
 
 ```
 <svg class="i">
-  <use href="svg-sprite.svg#anchor"/>
+  <use href="svg-sprite.svg#github"/>
 </svg>
 ```
-
-> **Nota:** Asegúrate de que la ruta del archivo **svg-sprite.svg** sea la correcta según tu proyecto.
+> Reemplaza **github** por el nombre de un icono de la [página de demostración](https://icons.zkreations.com/).
 
 ## Pug mixin
 
 Para proyectos creados con [pugjs](https://github.com/pugjs/pug), agrega el archivo [svg-mixin.pug](https://github.com/zkreations/icons/blob/main/variants/svg-mixin.pug) a tu proyecto. Tras incluirlo el mixin pondrás llamarlo de esta manera:
 
 ```pug
-+svg('anchor')
++svg('github')
 ```
-> Reemplaza **anchor** por el nombre de un icono de la [página de demostración](https://icons.zkreations.com/).
+> Reemplaza **github** por el nombre de un icono de la [página de demostración](https://icons.zkreations.com/).
 
 También cuentas con un segundo parámetro, que te permite reemplazar la clase `i i-icon` por otra, por ejemplo:
 
 ```pug
-+svg('circle', 'mi-clase')
++svg('github', 'mi-clase')
 ```
 
 También puedes pasar cualquier atributo al icono, por ejemplo:
 
 ```pug
-+svg('search').foo#foo(data-example='foo')
++svg('github').foo#foo(data-example='foo')
 ```
 
 ## Blogger
@@ -129,9 +128,7 @@ Todos los iconos son diseñados por [Daniel Abel](https://twitter.com/danieI_abe
 - En caso de solicitar un icono, deja un ejemplo claro
 - En caso de aportar un icono, debes ser el autor original
 
-## Apoyar
-
-Si deseas ayudarme para mantener este y más proyectos [invítame un café](https://ko-fi.com/zkreations) ☕. Te lo agradeceré mucho 👏.
+Si lo deseas, también puedes ayudarme para mantener este y más proyectos [invitándome un café](https://ko-fi.com/zkreations) ☕. Te lo agradeceré mucho 👏.
 
 ## License
 
