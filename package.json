@@ -1,6 +1,6 @@
 {
   "name": "@zkreations/icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Handcrafted line by line, for as little code as possible",
   "scripts": {
     "build": "npm-run-all --sequential build:*",
