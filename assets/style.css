@@ -97,6 +97,20 @@ a {
   gap: 1rem;
 }
 
+.share-on {
+  display: flex;
+  align-items: center;
+}
+
+.share-on .i {
+  transition: color .3s;
+  margin-left: .5rem;
+}
+
+.share-on:hover .i {
+  color: #1DA1F2;
+}
+
 .header-hero {
   padding-top: 4rem;
   padding-bottom: 4rem;

@@ -37,23 +37,23 @@ arrow-up: arrows
 arrows-rotate: arrows
 at: communication, email
 bag-shopping: shopping, maps
-bars-filter: editing, coding
-bars-sort: editing, coding
-bars: editing, coding
+bars-filter: editing, coding, code
+bars-sort: editing, coding, code
+bars: editing, coding, code
 binance: brand
-bitcoin: money, shopping
+bitcoin: money, currency, shopping
 blogger: brand
 bolt: photos-images, weather, energy
 book-open: education
 book: education, business, maps, writing
 bookmark-alt: shopping, maps, shapes, writing, business
 bookmark: shopping, maps, shapes, writing
-boolean: design, coding
-box-archive: moving, business, files, coding, writing
-brackets-angled: coding
-brackets-curly: coding
-brackets-round: coding
-brackets: coding
+boolean: design, coding, code
+box-archive: moving, business, files, coding, code, writing
+brackets-angled: coding, code
+brackets-curly: coding, code
+brackets-round: coding, code
+brackets: coding, code
 bullhorn: communication, business, shopping, marketing, political
 calendar: time, business, shapes
 cart-shopping: shopping, maps
@@ -76,7 +76,7 @@ circles: shapes
 clock-rotate: arrows, time
 clock: time
 cloud: weather, connectivity, shapes
-code: coding
+code: coding, code
 codepen: brand
 codesandbox: brand
 coffee: holidays, food-beverage
@@ -88,12 +88,12 @@ comment-dots: communication
 comment: communication, shapes
 copy: business, design, files
 copyright: business
-credit-card: money, shopping
-cube: editing, design, coding
+credit-card: money, currency, shopping
+cube: editing, design, coding, code
 desktop: devices-hardware
 disqus: brand
-dogecoin: money, shopping
-dollar: money, shopping
+dogecoin: money, currency, shopping
+dollar: money, currency, shopping
 download-cloud: arrows, connectivity
 download: arrows, devices-hardware
 dribbble: brand
@@ -102,24 +102,24 @@ ellipsis-vertical: editing
 ellipsis: editing
 envelope: communication, business, writing, email
 equals: mathematics
-euro: money, shopping
+euro: money, currency, shopping
 facebook-alt: brand, social
 facebook: brand, social
 figma: brand
-file-glitch: business, files, coding, writing
-file-search: business, files, coding, writing
-file: business, files, coding, writing
-filter: coding, science
+file-glitch: business, files, coding, code, writing
+file-search: business, files, coding, code, writing
+file: business, files, coding, code, writing
+filter: coding, code, science
 fingerprint: security, accessibility
 fire: nature, maps, energy, science, camping
 gear: cog
 get-pocket: brand, social
-git-branch: coding
-git-commit: coding
-git-issues: coding
-git-fork: coding
-git-merge: coding
-git-pull: coding
+git-branch: coding, code
+git-commit: coding, code
+git-issues: coding, code
+git-fork: coding, code
+git-merge: coding, code
+git-pull: coding, code
 github: brand
 gitlab: brand
 globe-stand: education
@@ -155,6 +155,7 @@ meteor: weather, astronomy
 minus: editing, mathematics
 moon: weather, astronomy
 numbers: communication, business, maps
+open-source: coding, code, brand
 outdent: text-formatting
 paint-roller: construction, design
 paper-plane: communication, transportation, writing
@@ -177,17 +178,18 @@ rss: connectivity
 search: maps
 shapes: shapes, education
 share: social
-sidebar: coding, design, layout
+sidebar: coding, code, design, layout
 square-exclamation: alert
 square: shapes
 squares: shapes
 star: shopping, shapes
-sterling: money
+sterling: money, currency
 sun: spinner,sweather, energy
 table-layout: text-formatting, layout
 table-list: text-formatting, layout
+tag: business, shopping
 telegram: brand, social
-terminal: coding
+terminal: coding, code
 thumbs-down: hands, shopping
 thumbs-up: hands, shopping
 tiktok: brand, social
@@ -211,7 +213,7 @@ ufo: transportation, astronomy
 unlink: editing
 upload-cloud: arrows, devices-hardware
 upload: arrows, devices-hardware
-usdt: money, shopping
+usdt: money, currency, shopping
 user: people
 visual-studio-code: brand
 vk: brand, social
@@ -224,4 +226,4 @@ wind: weather, nature, energy
 windows: brand
 xmark: close, editing, mathematics
 yin-yang: spinners, religion
-youtube: brand
+youtube: brand, social
