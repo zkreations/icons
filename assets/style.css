@@ -90,6 +90,17 @@ a {
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-version {
+  font-size: .875rem;
+  margin-left: 0.75rem;
+  color: var(--color-code);
+  padding: 0.25rem 0.5rem;
+  background-color: var(--bg-code);
+  border-radius: 0.5rem;
 }
 
 .header-menu {

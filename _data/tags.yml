@@ -5,11 +5,14 @@ align-center: text-formatting
 align-justify: text-formatting
 align-left: text-formatting
 align-right: text-formatting
+amazon: brand, shopping
 anchor: maritime, logistics
 angle-down: arrows
 angle-left: arrows
 angle-right: arrows
 angle-up: arrows
+app-gallery: brand
+app-store: brand
 angles-down: arrows
 angles-left: arrows
 angles-right: arrows
@@ -112,6 +115,7 @@ file: business, files, coding, code, writing
 filter: coding, code, science
 fingerprint: security, accessibility
 fire: nature, maps, energy, science, camping
+flipboard: brand
 gear: cog
 get-pocket: brand, social
 git-branch: coding, code
@@ -125,6 +129,7 @@ gitlab: brand
 globe-stand: education
 globe: business, connectivity, astronomy, maps
 google-drive: brand
+google-play: brand
 grip-dots-vertical: editing
 grip-dots: editing
 gumroad: brand
@@ -154,6 +159,7 @@ meta: brand
 meteor: weather, astronomy
 minus: editing, mathematics
 moon: weather, astronomy
+newspaper: writing, maps, paper
 numbers: communication, business, maps
 open-source: coding, code, brand
 outdent: text-formatting

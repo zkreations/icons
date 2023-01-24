@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@zkreations/icons": "^1.0.4"
+    "@zkreations/icons": "^1.0.10"
   },
   "devDependencies": {},
   "scripts": {
