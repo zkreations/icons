@@ -22,7 +22,6 @@
     },
     "mergePaths",
     "cleanupListOfValues",
-    "cleanupIDs",
     "sortAttrs",
     "removeDimensions",
     "removeUnusedNS",
