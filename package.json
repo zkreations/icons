@@ -6,7 +6,6 @@
     "build": "npm-run-all --sequential build:*",
     "build:svg": "node ./build/svg.js",
     "build:sprite": "node ./build/sprite.js",
-    "build:pug": "node ./build/pug.js",
     "build:blogger": "node ./build/blogger.js"
   },
   "files": [
