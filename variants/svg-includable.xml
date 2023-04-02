@@ -31,16 +31,16 @@
       <b:case value='arrow-down'/><path d="M12 5v14m7-7-7 7-7-7"/>
       <b:case value='arrow-left-long'/><path d="m6 9-3 3 3 3m15-3H3"/>
       <b:case value='arrow-left'/><path d="M5 12h14m-7-7-7 7 7 7"/>
-      <b:case value='arrow-refresh'/><path d="M20 18a10 10 0 1 1 1.1-10.1M22 4v4h-4"/>
       <b:case value='arrow-right-long'/><path d="m18 9 3 3-3 3M3 12h18"/>
       <b:case value='arrow-right'/><path d="M5 12h14m-7-7 7 7-7 7"/>
-      <b:case value='arrow-rotate'/><path d="M4 18A10 10 0 1 0 2.9 7.9M2 4v4h4"/>
+      <b:case value='arrow-rotate'/><path d="M20 18a10 10 0 1 1 1.1-10.1M22 4v4h-4"/>
       <b:case value='arrow-trend-down'/><path d="M23 18 13 8l-5 5-7-7m15 12h7v-7"/>
       <b:case value='arrow-trend-up'/><path d="M23 6 13 16l-5-5-7 7M16 6h7v7"/>
       <b:case value='arrow-up-left'/><path d="M17 17 7 7m0 10V7h10"/>
       <b:case value='arrow-up-long'/><path d="m9 6 3-3 3 3m-3 15V3"/>
       <b:case value='arrow-up-right'/><path d="M7 17 17 7M7 7h10v10"/>
       <b:case value='arrow-up'/><path d="M12 5v14m7-7-7-7-7 7"/>
+      <b:case value='arrows-rotate'/><path d="M21.5 9a10 10 0 0 0-19 0M2 5v4h4m12 6h4v4M2.4 15a10 10 0 0 0 19.1 0"/>
       <b:case value='at'/><circle cx="12" cy="12" r="4"/><path d="M16 12v1a1 1 0 0 0 6 0v-1a10 10 0 1 0-4 8"/>
       <b:case value='badge-check'/><path d="m8.5 12.5 2 2 5-5M2 9.5q-2 2.5 0 5 1 1.1 1 2.8.5 3.2 3.8 3.7 1.4.2 2.6 1 2.6 2 5.2 0 1.2-.8 2.6-1 3.3-.5 3.8-3.7 0-1.7 1-2.8 2-2.5 0-5-1-1.1-1-2.8-.5-3.2-3.8-3.7-1.4-.2-2.6-1Q12 0 9.4 2q-1.2.8-2.6 1-3.3.5-3.8 3.7 0 1.7-1 2.8Z"/>
       <b:case value='bag-shopping'/><path d="M3 7v11a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4V7Zm13 3V6a4 4 0 0 0-8 0v4"/>
@@ -59,6 +59,7 @@
       <b:case value='brackets-curly'/><path d="M9 20H7a3 3 0 0 1-3-3 4 5 0 0 0-3-5 4 5 0 0 0 3-5 3 3 0 0 1 3-3h2m6 16h2a3 3 0 0 0 3-3 4 5 0 0 1 3-5 4 5 0 0 1-3-5 3 3 0 0 0-3-3h-2"/>
       <b:case value='brackets-round'/><path d="M8 4a9 9 0 0 0 0 16m8 0a9 9 0 0 0 0-16"/>
       <b:case value='brackets'/><path d="M9 20H4V4h5m6 16h5V4h-5"/>
+      <b:case value='broom'/><path d="m23 1-6 6M9 6q4-3 8 1t1 8l-6 8-6-6 1-3-3 1-3-3Zm0 0 9 9"/>
       <b:case value='bullhorn'/><path d="M3 12a2 2 0 0 0 2 2h5q6 0 11 4V3q-5 4-11 4H5a2 2 0 0 0-2 2Zm7-5v12a2 2 0 0 1-4 0v-5"/>
       <b:case value='calendar'/><rect width="18" height="17" x="3" y="5" rx="2"/><path d="M7 2v3m10-3v3M3 10h18"/>
       <b:case value='cart-shopping'/><path d="M1 2h4l3 12.4a2 2 0 0 0 2 1.6h9a2 2 0 0 0 2-1.6L23 6H6"/><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
@@ -134,6 +135,7 @@
       <b:case value='grip-dots-vertical'/><circle cx="9" cy="5" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="19" r="1"/>
       <b:case value='grip-dots'/><circle cx="5" cy="9" r="1"/><circle cx="12" cy="9" r="1"/><circle cx="19" cy="9" r="1"/><circle cx="5" cy="15" r="1"/><circle cx="12" cy="15" r="1"/><circle cx="19" cy="15" r="1"/>
       <b:case value='gumroad'/><circle cx="20" cy="4" r="2"/><circle cx="15" cy="16" r="2"/><path d="M18 4H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2"/>
+      <b:case value='headphones'/><path d="M2 14h4q2 0 2 2v4q0 2-2 2H4q-2 0-2-2v-8a1 1 0 0 1 20 0v8q0 2-2 2h-2q-2 0-2-2v-4q0-2 2-2h4"/>
       <b:case value='heart'/><path d="m12 21-8.8-8.3A5.6 5.6 0 1 1 12 6a5.6 5.6 0 1 1 8.9 6.6z"/>
       <b:case value='home'/><path d="M1 12 12 1l11 11m-2-2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10m6 12v-8h6v8"/>
       <b:case value='image'/><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="15" cy="9" r="2"/><path d="m3 18 6-6 9 9"/>
