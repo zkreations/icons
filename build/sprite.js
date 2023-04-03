@@ -46,10 +46,11 @@ function generateSprites () {
 
   addIconsToSpriter(spriter, cwd, files).compile(spritesOutput, (error, result) => {
     if (error) {
-      console.error(error)
+      console.error(error.message)
       process.exit(1)
     }
     writeSprites(result)
+    console.log('Sprites file generated')
   })
 }
 

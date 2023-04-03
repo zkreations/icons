@@ -50,6 +50,7 @@ async function processFile (file) {
   try {
     const files = await fs.readdir(dir.icons)
     await Promise.all(files.map(file => processFile(file)))
+    console.log('SVG files processed')
   } catch (error) {
     console.error(error)
     process.exit(1)

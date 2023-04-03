@@ -46,7 +46,7 @@ async function processSvgFile (file) {
     await fs.writeFile(distDir, includable, 'utf8')
     console.log('Blogger includable file generated')
   } catch (error) {
-    console.error(`An error occurred while generating the Blogger includable file: ${error.message}`)
+    console.error(error.message)
     process.exit(1)
   }
 })()
