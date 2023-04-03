@@ -1,4 +1,4 @@
 <svg class="i i-anchor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <circle cx="12" cy="5" r="3"/>
-  <path d="M12 22V8M2 17a12.5 12.5 0 0 0 20 0M9 12h6M2 20v-3h3m14 0h3v3"/>
+  <path d="M12 22V8m-9 5v4a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5v-4M1 15l2-2 2 2m14 0 2-2 2 2"/>
 </svg>
