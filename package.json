@@ -1,12 +1,11 @@
 {
   "name": "@zkreations/icons",
-  "version": "1.0.4",
+  "version": "1.0.10",
   "description": "Handcrafted line by line, for as little code as possible",
   "scripts": {
     "build": "npm-run-all --sequential build:*",
     "build:svg": "node ./build/svg.js",
     "build:sprite": "node ./build/sprite.js",
-    "build:pug": "node ./build/pug.js",
     "build:blogger": "node ./build/blogger.js"
   },
   "files": [
@@ -26,8 +25,10 @@
   "homepage": "https://github.com/zkreations/icons#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "eslint": "^8.37.0",
+    "eslint-config-standard": "^17.0.0",
     "npm-run-all": "^4.1.5",
-    "svg-sprite": "^1.5.4",
-    "svgo": "^2.8.0"
+    "svg-sprite": "^2.0.2",
+    "svgo": "^3.0.2"
   }
 }

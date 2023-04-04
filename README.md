@@ -1,6 +1,6 @@
 ![cover](https://raw.githubusercontent.com/zkreations/icons/main/.github/cover.png)
 
-<p align="center">Iconos en formato 24x24 diseñados a mano línea por línea, tomando decisiones inteligentes necesarias para obtener el menor código posible.<p>
+<p align="center">Meteor is an open-source icon pack, handcrafted at the code level, to achieve the highest possible optimization.<p>
 
 <p align="center">
   <a href="https://icons.zkreations.com/"><strong> Demo en vivo &rarr;</strong></a>
@@ -12,24 +12,24 @@
 </p>
 
 
-## Sobre estos iconos
+## About these icons
 
-Los iconos en SVG son escalables, pesan mucho menos que las imágenes, son editables con CSS y mucho más. Sin embargo, el problema principal (al menos para mí) es su código, el cual suele ser muy grande.
+SVG icons are scalable, weigh much less than images, are editable with CSS, and much more. However, the main problem (at least for me) is their code, which tends to be very large.
 
-Por esto he diseñado manualmente el código de cada icono con el fin de tomar **decisiones inteligentes** para lograr la menor cantidad de código posible. Esta labor fue más fácil de realizar gracias a la herramienta [svg-path-editor](https://yqnn.github.io/svg-path-editor/). He nombrado este pack "Meteor icons" y es de **código abierto**.
+That's why I manually designed the code for each icon in order to make **smart decisions** to achieve the least amount of code possible. This task was made easier thanks to the [svg-path-editor](https://yqnn.github.io/svg-path-editor/) tool. I have named this pack "Meteor icons" and it is **open source**.
 
 ![github-path](https://raw.githubusercontent.com/zkreations/icons/main/.github/github-path.png)
 
 
-## Empezando
+## Getting Started
 
-El siguiente código CSS ayuda a mantener la etiqueta SVG más limpia, también te permitirá personalizar rápidamente los iconos:
+The following CSS code helps to keep the SVG tag cleaner, and it will also allow you to quickly customize the icons:
 
 ```css
 .i {
-  stroke-width: var(--i-stroke,2);
-  width: var(--i-size,20px);
-  height: var(--i-size,20px);
+  stroke-width: var(--i-stroke, 2);
+  width: var(--i-size, 20px);
+  height: var(--i-size, 20px);
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -37,7 +37,7 @@ El siguiente código CSS ayuda a mantener la etiqueta SVG más limpia, también 
 }
 ```
 
-Puedes configurar el tamaño y grosor con variables CSS:
+You can set the size and thickness with CSS variables:
 
 | Variable         | Default  
 | ---------------- | -------- 
@@ -45,91 +45,70 @@ Puedes configurar el tamaño y grosor con variables CSS:
 | `--i-size`       | `20px`   
 
 
-## SVG inline
+## Inline SVG
 
-Elige cualquier icono de la [página de demostración](https://icons.zkreations.com/), pulsa la opción "**Copy code**" y pega el código en donde lo requieras en tu proyecto, eso es todo. 
+Choose any icon from the [demo page](https://icons.zkreations.com/), click "**Copy code**", and paste the code wherever you need it in your project, that's it.
 
 ## SVG Sprite
 
-Agrega a tu proyecto el archivo [svg-sprite.svg](https://github.com/zkreations/icons/blob/main/variants/svg-sprite.svg). Ahora, en cualquier parte, incluye los iconos usando este código, reemplazando "anchor" por el nombre del icono deseado, que puedes copiar de la [página de demostración](https://icons.zkreations.com/):
+Add the [svg-sprite.svg](https://github.com/zkreations/icons/blob/main/variants/svg-sprite.svg) file to your project. Now, anywhere in your project, include the icons using this code:
 
-```
-<svg class="i">
+```xml
+<svg class="i i-github">
   <use href="svg-sprite.svg#github"/>
 </svg>
 ```
-> Reemplaza **github** por el nombre de un icono de la [página de demostración](https://icons.zkreations.com/).
 
-## Pug mixin
-
-Para proyectos creados con [pugjs](https://github.com/pugjs/pug), agrega el archivo [svg-mixin.pug](https://github.com/zkreations/icons/blob/main/variants/svg-mixin.pug) a tu proyecto. Tras incluirlo el mixin pondrás llamarlo de esta manera:
-
-```pug
-+svg('github')
-```
-> Reemplaza **github** por el nombre de un icono de la [página de demostración](https://icons.zkreations.com/).
-
-También cuentas con un segundo parámetro, que te permite reemplazar la clase `i i-icon` por otra, por ejemplo:
-
-```pug
-+svg('github', 'mi-clase')
-```
-
-También puedes pasar cualquier atributo al icono, por ejemplo:
-
-```pug
-+svg('github').foo#foo(data-example='foo')
-```
+> Replace **"github"** with the name of an icon from the [demo page](https://icons.zkreations.com/).
 
 ## Blogger
 
-Si tu proyecto es una plantilla de Blogger, agrega la inclusión [svg-includable.xml](https://github.com/zkreations/icons/blob/main/variants/svg-includable.xml). Para incluirlo necesitarás etiquetas `b:defaultmarkups`, por ejemplo:
+If your project is a Blogger template, add the [svg-includable.xml](https://github.com/zkreations/icons/blob/main/variants/svg-includable.xml) inclusion. To include it, you will need `b:defaultmarkups` tags, for example:
 
 ```xml
 <b:defaultmarkups>
   <b:defaultmarkup type="Common">
-    <!-- svg-includable.xml aquí -->
+    <!-- svg-includable.xml here -->
   </b:defaultmarkup>
 </b:defaultmarkups>
 ```
 
-Tras la inclusión, podrás llamar a cualquier icono en cualquier parte de la plantilla usando una etiqueta `b:include`, por ejemplo:
+After including it, you can call any icon anywhere in the template using a `b:include` tag, for example:
 
 ```xml
 <b:include name='i:svg' data='{ icon: "github" }'/>
 ```
 
-> Reemplaza **github** por el nombre de un icono de la [página de demostración](https://icons.zkreations.com/).
+> Replace **"github"** with the name of an icon from the [demo page](https://icons.zkreations.com/).
 
-La inclusión cuenta con algunos parámetros que te permitirán personalizar la etiqueta SVG resultante. Los parámetros disponibles son los siguientes:
+The inclusion has some parameters that allow you to customize the resulting SVG tag. The available parameters are:
 
-| Parámetro      | Descripción 
+| Parameter      | Description 
 | -------------- | ------------
-| `icon`         | Nombre del icono
-| `class`        | Clases adicionales
-| `root`         | Reemplaza todas las classes
-| `viewbox`      | Atributo `viewbox`
-| `fill`         | Atributo `fill`
-| `width`        | Atributo `width`
-| `height`       | Atributo `height`
+| `icon`         | Icon name
+| `class`        | Additional classes
+| `root`         | Replaces all classes
+| `viewbox`      | `viewbox` attribute
+| `fill`         | `fill` attribute
+| `width`        | `width` attribute
+| `height`       | `height` attribute
 
-Aquí un ejemplo agregando algunos atributos en la inclusión de Blogger:
+Here's an example adding some attributes to the Blogger inclusion:
 
 ```xml
 <b:include name='i:svg' data='{ icon: "github", width: "50px", height: "50px" }'/>
 ```
 
-## Contribuir
+## Contributing
 
-Todos los iconos son diseñados por [Daniel Abel](https://twitter.com/danieI_abel), pero puedes ayudar a mantener o mejorar este proyecto tomando en cuenta los siguientes puntos:
+All icons are designed by [Daniel Abel](https://twitter.com/danieI_abel), but you can help maintain or improve this project by considering the following points:
 
-- Mejorar el diseño y consistencia de los iconos
-- Mantener el código SVG lo más pequeño posible
-- En caso de solicitar un icono, deja un ejemplo claro
-- En caso de aportar un icono, debes ser el autor original
-
-Si lo deseas, también puedes ayudarme para mantener este y más proyectos [invitándome un café](https://ko-fi.com/zkreations) ☕. Te lo agradeceré mucho 👏.
+- Improve the design and consistency of the icons
+- Keep the SVG code as small as possible
+- In case of requesting an icon, leave a clear example
+- In case of contributing an icon, you must be the original author
+- If you want, you can also help me maintain this and more projects by buying me a coffee ☕. I will appreciate it very much 👏.
 
 ## License
 
-**zkreations icons** is licensed under the MIT License
+**Meteor icons** is licensed under the MIT License
