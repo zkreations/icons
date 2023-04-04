@@ -20,6 +20,11 @@ That's why I manually designed the code for each icon in order to make **smart d
 
 ![github-path](https://raw.githubusercontent.com/zkreations/icons/main/.github/github-path.png)
 
+## Installation
+
+```
+npm install meteor-icons
+```
 
 ## Getting Started
 
@@ -76,7 +81,7 @@ If your project is a Blogger template, add the [svg-includable.xml](https://gith
 After including it, you can call any icon anywhere in the template using a `b:include` tag, for example:
 
 ```xml
-<b:include name='i:svg' data='{ icon: "github" }'/>
+<b:include name='i:meteor' data='{ icon: "github" }'/>
 ```
 
 > Replace **"github"** with the name of an icon from the [demo page](https://icons.zkreations.com/).
@@ -96,7 +101,7 @@ The inclusion has some parameters that allow you to customize the resulting SVG 
 Here's an example adding some attributes to the Blogger inclusion:
 
 ```xml
-<b:include name='i:svg' data='{ icon: "github", width: "50px", height: "50px" }'/>
+<b:include name='i:meteor' data='{ icon: "github", width: "50px", height: "50px" }'/>
 ```
 
 ## Contributing
