@@ -107,7 +107,8 @@ All icons are designed by [Daniel Abel](https://twitter.com/danieI_abel), but yo
 - Keep the SVG code as small as possible
 - In case of requesting an icon, leave a clear example
 - In case of contributing an icon, you must be the original author
-- If you want, you can also help me maintain this and more projects by buying me a coffee ☕. I will appreciate it very much 👏.
+
+If you want, you can also help me maintain this and more projects by [buying me a coffee](https://ko-fi.com/zkreations) ☕. I will appreciate it very much 👏.
 
 ## License
 
