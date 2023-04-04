@@ -1,8 +1,8 @@
 ---
 title: Meteor icons
 description: Handmade, with the least possible code
-pathSvg: node_modules/@zkreations/icons/icons/
-version: v1.0.10
+summary: Meteor is an open-source icon pack, handcrafted at the code level, to achieve the highest possible optimization.
+version: v2.0.0
 ---
 
 <!DOCTYPE html>
@@ -19,24 +19,28 @@ version: v1.0.10
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@zkreations">
 
+  <script>
+    if (localStorage.getItem('mode') === 'dark') {
+      document.documentElement.classList.add('dark')
+    }
+  </script>
+
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-  <link href="assets/style.css" rel="stylesheet">
+  <link href="assets/main.css" rel="stylesheet">
 
   <link as='style' href='https://cdn.jsdelivr.net/npm/@zkreations/tooltips@4/tooltips.min.css' rel='preload'/>
   <link href='https://cdn.jsdelivr.net/npm/@zkreations/tooltips@4/tooltips.min.css' rel='stylesheet'/>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js" defer></script>
-  <script src="assets/main.js" defer></script>
+  <script src="{{ '/assets/main.js' | relative_url }}" defer></script>
 
 </head>
 <body>
-
   {% include header.html %}
   {% include hero.html %}
   {% include icons.html %}
   {% include footer.html %}
-
 </body>
 </html>

@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "@zkreations/icons": "^1.0.10"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "zkreations <daniel@zkreations.com> (https://zkreations.com/)",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-standard": "^17.0.0"
+  }
 }

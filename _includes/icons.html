@@ -1,12 +1,13 @@
+{% assign total = site.static_files | where_exp: "file", "file.path contains 'assets/icons'" | size %}
 <div class="icons container" id="js-icons">
   <div class="search-form">
-    <input type="search" class="icons-search search" placeholder="Search {{ site.data.tags.size }} icons"/>
-    {% include_relative {{ page.pathSvg }}search.svg %}
+    <input type="text" class="search-input search" placeholder="Search {{ total }} icons"/>
+    {% include_relative assets/icons/search.svg %}
   </div>
   <ul class="icons-grid list">
     {% for file in site.static_files %}
-      {% if file.path contains 'icons/icons/' %}
-        {% include icon.html icon=file %}
+      {% if file.path contains 'icons/' %}
+        {% include_cached icon.html icon=file %}
       {% endif %}
     {% endfor %}
   </ul>

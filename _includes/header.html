@@ -1,7 +1,7 @@
 <header class="header">
   <div class="header-wrapper container flex-mobile">
     <h1 class="header-logo">
-      {% include_relative {{ page.pathSvg }}meteor.svg %}
+      <svg class="i i-meteor"><use xlink:href="assets/svg-sprite.svg#meteor"></use></svg>
       <code class="header-version">{{ page.version }}</code>
     </h1>
     
@@ -10,9 +10,15 @@
         <a href="https://github.com/zkreations/icons">GitHub</a>
       </li>
       <li>
-        <a class="share-on" href="https://twitter.com/intent/tweet?text=Handmade%20by%20@danieI_abel%20and%20@zkreations,%20with%20the%20least%20possible%20code&url=https://icons.zkreations.com">
-          Share on {% include_relative {{ page.pathSvg }}twitter.svg %}
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=Handmade%20by%20@danieI_abel%20and%20@zkreations,%20with%20the%20least%20possible%20code&url=https://icons.zkreations.com">
+          Tweet
         </a>
+      </li>
+      <li>
+        <button class="toggle-mode">
+          <svg class="i i-sun"><use xlink:href="assets/svg-sprite.svg#sun"></use></svg>
+          <svg class="i i-moon"><use xlink:href="assets/svg-sprite.svg#moon"></use></svg>
+        </button>
       </li>
     </ul>
   </div>
