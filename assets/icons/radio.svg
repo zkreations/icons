@@ -1,0 +1,5 @@
+<svg class="i i-radio" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="22" height="16" x="1" y="6" rx="3"/>
+  <circle cx="16" cy="14" r="3"/>
+  <path d="M6 11h2m-3 3h4m-3 3h2M4 6l16-4"/>
+</svg>

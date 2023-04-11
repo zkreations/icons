@@ -43,6 +43,7 @@ arrow-up: arrows
 arrows-rotate: arrows
 at: communication, email
 atom: science, energy
+backward: video, music
 badge-check: business, shopping
 bag-shopping: shopping, maps
 bars-filter: editing, coding, code
@@ -64,6 +65,7 @@ broom: household, cleaning, design
 bullhorn: communication, business, shopping, marketing, political
 calendar: time, business, shapes
 cart-shopping: shopping, maps
+cassette-tape: music
 chain: editing, text-formatting, writing
 check-double: editing, text-formatting, writing
 check: editing, text-formatting, writing
@@ -119,6 +121,7 @@ filter: coding, code, science
 fingerprint: security, accessibility
 fire: nature, maps, energy, science, camping
 flipboard: brand
+forward: video, music
 gear: cog
 get-pocket: brand, social
 git-branch: coding, code
@@ -181,6 +184,7 @@ plug: devices-hardware, maps, energy
 plus: add, mathematics, editing, maps
 quote-left: communication, writing
 quote-right: communication, writing
+radio: devices-hardware, music
 reddit: brand, social
 rhombus: shapes
 rows: text-formatting, design, layout
@@ -188,6 +192,7 @@ rss: connectivity, communication
 search: maps
 shapes: education
 share: social
+shuffle: music, video, arrows
 sidebar: design, layout
 square-exclamation: alert
 square: shapes
@@ -228,6 +233,10 @@ usdt: money, currency, shopping
 user: people
 visual-studio-code: brand
 vk: brand, social
+volume-high: music, video
+volume-low: music, video
+volume-off: music, video
+volume-xmark: music, video
 wave-pulse: mathematics, science
 wave-square: mathematics, science
 wave-triangle: mathematics, science
@@ -238,3 +247,4 @@ windows: brand
 xmark: close, error, alert, editing, mathematics
 yin-yang: spinners, religion
 youtube: brand, social
+zeno: brand
