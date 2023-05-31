@@ -261,7 +261,7 @@
       <b:case value='xmark'/><path d="M18 6 6 18M6 6l12 12"/>
       <b:case value='yin-yang'/><circle cx="12" cy="12" r="10"/><path d="M12 22a1 1 0 0 1 0-10 1 1 0 0 0 0-10m0 5h0m0 10h0"/>
       <b:case value='youtube'/><rect width="22" height="18" x="1" y="3" rx="5"/><path d="m9 16 7-4-7-4v8Z"/>
-      <b:case value='zeno'/><circle cx="5" cy="4" r="2"/><circle cx="19" cy="20" r="2"/><path d="M7 4h13L4 20h13"/>
+      <b:case value='zenofm'/><circle cx="5" cy="4" r="2"/><circle cx="19" cy="20" r="2"/><path d="M7 4h13L4 20h13"/>
       <b:default/><circle cx="12" cy="12" r="10"/>
     </b:switch>
   </svg>
