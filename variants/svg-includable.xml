@@ -112,6 +112,7 @@
       <b:case value='cube'/><path d="m12 2 9 5v10l-9 5-9-5V7zM3 7l9 5 9-5m-9 5v10"/>
       <b:case value='desktop'/><rect width="22" height="15" x="1" y="3" rx="3"/><path d="M8 21h8M1 13h22"/>
       <b:case value='disc'/><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2"/>
+      <b:case value='discord'/><path d="M9 3q-2.5.5-5 2-3 5-3 12 2 2.5 6 4 1-1.5 1.5-3.5M7 17q5 2 10 0m-1.5.5q.5 2 1.5 3.5 4-1.5 6-4 0-7-3-12-2.5-1.5-5-2l-1 2q-2-.5-4 0L9 3"/><circle cx="8" cy="12" r="1"/><circle cx="16" cy="12" r="1"/>
       <b:case value='disqus'/><path d="M9 8v8h3a1 1 0 0 0 0-8ZM7 21a10.5 10.5 0 1 0-4-4l-1 5Z"/>
       <b:case value='dollar'/><path d="M12 2v20m4-17h-6a3.5 3.5 0 0 0 0 7h4.5a3.5 3.5 0 0 1 0 7H6"/>
       <b:case value='download-cloud'/><path d="M18 17a5 5 0 1 0 0-10A1 1 0 1 0 5 9a1 1 0 0 0 0 8h1m3 3 3 3 3-3m-3 3V11"/>
