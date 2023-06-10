@@ -197,6 +197,7 @@
       <b:case value='play'/><path d="m7 3 14 9-14 9z"/>
       <b:case value='plug'/><path d="M8 2v5m8-5v5M5 7v3a1 1 0 0 0 14 0V7zm7 10v5"/>
       <b:case value='plus'/><path d="M12 5v14m-7-7h14"/>
+      <b:case value='power'/><path d="M12 2v10M6 4a10 10 0 1 0 12 0"/>
       <b:case value='quote-left'/><path d="M5 13h5v5H5v-7a4 5 0 0 1 4-5m5 7h5v5h-5v-7a4 5 0 0 1 4-5"/>
       <b:case value='quote-right'/><path d="M10 11H5V6h5v7a4 5 0 0 1-4 5m13-7h-5V6h5v7a4 5 0 0 1-4 5"/>
       <b:case value='radio'/><rect width="22" height="16" x="1" y="6" rx="3"/><circle cx="16" cy="14" r="3"/><path d="M6 11h2m-3 3h4m-3 3h2M4 6l16-4"/>
