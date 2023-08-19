@@ -247,6 +247,7 @@
       <b:case value='turn-up-right'/><path d="m15 14 5-5-5-5M4 20v-7a4 4 0 0 1 4-4h12"/>
       <b:case value='tv-retro'/><rect width="20" height="15" x="2" y="7" rx="3"/><path d="m7 2 5 5 5-5"/>
       <b:case value='tv'/><rect width="22" height="15" x="1" y="3" rx="3"/><path d="M7 21h10"/>
+      <b:case value='twitch'/><path d="M8 22v-4H3V6l4-4h14v12l-4 4h-5Zm3-15v4m6-4v4"/>
       <b:case value='twitter'/><path d="M12 7.5a4.5 4.5 0 0 1 8-3Q22 4 23 3q0 2-2 4A13 13 0 0 1 1 19q5 0 7-2-8-4-5-13 4 5 9 5Z"/>
       <b:case value='ufo'/><path d="M17 7Q12 9 7 7a1 1 0 0 1 10 0M5 9h0m7 2h0m7-2h0M5 17l-3 5m17-5 3 5M7 5a11 4.75 0 1 0 10 0"/>
       <b:case value='unlink'/><path d="m18 13 3-3a1 1 0 0 0-7-7l-3 3m-5 5-3 3a1 1 0 0 0 7 7l3-3M5 5l14 14"/>
