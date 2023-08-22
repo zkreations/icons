@@ -16,7 +16,8 @@ const svgAttr = {
 }
 
 const dir = {
-  icons: path.join(__dirname, '../icons/')
+  icons: path.join(__dirname, '../icons/'),
+  variants: path.join(__dirname, '../variants/')
 }
 
 async function processFile (file) {
@@ -30,27 +31,40 @@ async function processFile (file) {
   })
 
   const svgFile = $('svg')
+  const iconName = path.basename(file, '.svg')
 
   for (const [attr, value] of Object.entries(svgAttr)) {
     svgFile.removeAttr(attr)
     svgFile.attr(
       attr,
-      attr === 'class' ? `i i-${path.basename(file, '.svg')}` : value
+      attr === 'class' ? `i i-${iconName}` : value
     )
   }
 
   const resultSvg = svgFile.toString()
+  const resultSvgContent = svgFile.children()
+  const resultSvgContentString = resultSvgContent.toString()
 
   if (resultSvg !== rawSvg) {
     await fs.writeFile(filepath, resultSvg, 'utf8')
+  }
+
+  return {
+    [iconName]: resultSvgContentString
   }
 }
 
 (async () => {
   try {
     const files = await fs.readdir(dir.icons)
-    await Promise.all(files.map(file => processFile(file)))
-    console.log('SVG files processed')
+    const iconData = await Promise.all(files.map(file => processFile(file)))
+    const iconMap = Object.assign({}, ...iconData)
+
+    await fs.writeFile(
+      path.join(dir.variants, 'icons.json'),
+      JSON.stringify(iconMap), 'utf8')
+
+    console.log('SVG files processed and icons.json generated')
   } catch (error) {
     console.error(error)
     process.exit(1)
