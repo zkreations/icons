@@ -26,10 +26,10 @@
       <b:case value='angle-left'/><path d="m15 18-6-6 6-6"/>
       <b:case value='angle-right'/><path d="m9 18 6-6-6-6"/>
       <b:case value='angle-up'/><path d="m6 15 6-6 6 6"/>
-      <b:case value='angles-down'/><path d="m6 12 6 6 6-6M6 6l6 6 6-6"/>
-      <b:case value='angles-left'/><path d="m12 18-6-6 6-6m6 12-6-6 6-6"/>
-      <b:case value='angles-right'/><path d="m6 18 6-6-6-6m6 12 6-6-6-6"/>
-      <b:case value='angles-up'/><path d="m6 18 6-6 6 6M6 12l6-6 6 6"/>
+      <b:case value='angles-down'/><path d="m6 13 6 6 6-6M6 5l6 6 6-6"/>
+      <b:case value='angles-left'/><path d="m11 18-6-6 6-6m8 12-6-6 6-6"/>
+      <b:case value='angles-right'/><path d="m5 18 6-6-6-6m8 12 6-6-6-6"/>
+      <b:case value='angles-up'/><path d="m6 19 6-6 6 6M6 11l6-6 6 6"/>
       <b:case value='app-gallery'/><rect width="20" height="20" x="2" y="2" rx="6"/><path d="M8 7a1 1 0 0 0 8 0"/>
       <b:case value='app-store'/><circle cx="12" cy="12" r="11"/><path d="M5.5 14h7m.8-8.5L8.6 14M7 17l.3-.5m6.2-5.9L17 17m-1.6-3h3.1m-7.8-8.5L12 7.8"/>
       <b:case value='apple'/><path d="M12 3q2 0 2-2-2 0-2 2M8 6C0 6 3 22 8 22q2 0 3-.5t2 0q1 .5 3 .5 3 0 4.5-6a1 1 0 0 1-.5-7.5Q19 6 16 6q-1 0-2.5.5t-3 0Q9 6 8 6"/>
@@ -82,15 +82,14 @@
       <b:case value='chevron-left'/><path d="m16 20-8-8 8-8"/>
       <b:case value='chevron-right'/><path d="m8 20 8-8-8-8"/>
       <b:case value='chevron-up'/><path d="m4 16 8-8 8 8"/>
-      <b:case value='chevrons-down'/><path d="m4 5 8 8 8-8M4 11l8 8 8-8"/>
-      <b:case value='chevrons-left'/><path d="m19 20-8-8 8-8m-6 16-8-8 8-8"/>
-      <b:case value='chevrons-right'/><path d="m5 20 8-8-8-8m6 16 8-8-8-8"/>
-      <b:case value='chevrons-up'/><path d="m4 13 8-8 8 8M4 19l8-8 8 8"/>
+      <b:case value='chevrons-down'/><path d="m4 3 8 8 8-8M4 13l8 8 8-8"/>
+      <b:case value='chevrons-left'/><path d="m21 20-8-8 8-8M11 20l-8-8 8-8"/>
+      <b:case value='chevrons-right'/><path d="m3 20 8-8-8-8m10 16 8-8-8-8"/>
+      <b:case value='chevrons-up'/><path d="m4 11 8-8 8 8M4 21l8-8 8 8"/>
       <b:case value='circle-check'/><circle cx="12" cy="12" r="10"/><path d="m8.5 12.5 2 2 5-5"/>
       <b:case value='circle-exclamation'/><circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h0"/>
       <b:case value='circle-xmark'/><circle cx="12" cy="12" r="10"/><path d="m9.5 9.5 5 5m0-5-5 5"/>
       <b:case value='circle'/><circle cx="12" cy="12" r="10"/>
-      <b:case value='circles'/><circle cx="6" cy="18" r="4"/><circle cx="18" cy="18" r="4"/><circle cx="12" cy="6" r="4"/>
       <b:case value='clock-rotate'/><path d="M4 18A10 10 0 1 0 2.9 7.9M2 4v4h4m6-1v5l3 3"/>
       <b:case value='clock'/><circle cx="12" cy="12" r="10"/><path d="M12 7v5l3 3"/>
       <b:case value='cloud'/><path d="M18 20a1 1 0 1 0 0-10 1 1 0 1 0-13 2 1 1 0 0 0 0 8z"/>
@@ -210,13 +209,11 @@
       <b:case value='rows'/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 12h18"/>
       <b:case value='rss'/><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/>
       <b:case value='search'/><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/>
-      <b:case value='shapes'/><path d="M7 10h10l-5-8Z"/><circle cx="6" cy="18" r="4"/><rect width="8" height="8" x="14" y="14" rx="1"/>
       <b:case value='share'/><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.5 13.5 7 4m0-11-7 4"/>
       <b:case value='shuffle'/><path d="m19 3 3 3-3 3m0 12 3-3-3-3M2 6h4l10 12h6M2 18h4l2-2.4m6-7.2L16 6h6"/>
       <b:case value='sidebar'/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/>
       <b:case value='square-exclamation'/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M12 8v4m0 4h0"/>
       <b:case value='square'/><rect width="18" height="18" x="3" y="3" rx="2"/>
-      <b:case value='squares'/><rect width="8" height="8" x="14" y="14" rx="1"/><rect width="8" height="8" x="2" y="14" rx="1"/><rect width="8" height="8" x="8" y="2" rx="1"/>
       <b:case value='star'/><path d="m12 1.5 3.1 6.3 6.9 1-5 4.8 1.2 6.9-6.2-3.2-6.2 3.2L7 13.6 2 8.8l6.9-1z"/>
       <b:case value='sterling'/><path d="M16 7a1 1 90 1 0-6 0v9a4 4 90 0 1-4 4h12M8 13h7"/>
       <b:case value='sun'/><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.2 4.2l1.4 1.4m12.8 12.8 1.4 1.4M1 12h2m18 0h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/>
@@ -245,7 +242,7 @@
       <b:case value='turn-up-right'/><path d="m15 14 5-5-5-5M4 20v-7a4 4 0 0 1 4-4h12"/>
       <b:case value='tv-retro'/><rect width="20" height="15" x="2" y="7" rx="3"/><path d="m7 2 5 5 5-5"/>
       <b:case value='tv'/><rect width="22" height="15" x="1" y="3" rx="3"/><path d="M7 21h10"/>
-      <b:case value='twitch'/><path d="M8 22v-4H3V6l4-4h14v12l-4 4h-5Zm3-15v4m6-4v4"/>
+      <b:case value='twitch'/><path d="M8 22v-4H3V6l4-4h14v12l-4 4h-5Zm3-15v4m5-4v4"/>
       <b:case value='twitter'/><path d="M12 7.5a4.5 4.5 0 0 1 8-3Q22 4 23 3q0 2-2 4A13 13 0 0 1 1 19q5 0 7-2-8-4-5-13 4 5 9 5Z"/>
       <b:case value='unlink'/><path d="m18 13 3-3a1 1 0 0 0-7-7l-3 3m-5 5-3 3a1 1 0 0 0 7 7l3-3M5 5l14 14"/>
       <b:case value='upload-cloud'/><path d="M18 17a5 5 0 1 0 0-10A1 1 0 1 0 5 9a1 1 0 0 0 0 8h1m3-3 3-3 3 3m-3 9V11"/>
