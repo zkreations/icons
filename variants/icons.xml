@@ -205,6 +205,7 @@
       <b:case value='message'/><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
       <b:case value='meta'/><path d="M2 9c2-5 7-6 10 0s5 10 8 10 4-5 2-10-7-6-10 0-5 10-8 10-4-5-2-10Z"/>
       <b:case value='meteor'/><circle cx="9.5" cy="14.5" r="3.5"/><path d="M8 5 4 9a1 1 0 0 0 11 11l7-7m-6-2 6-6m-6-1 2-2m-5 5h0"/>
+      <b:case value='microchip'/><rect width="16" height="16" x="4" y="4" rx="2"/><path d="M9 9h6v6H9zm0-8v3m6-3v3M9 20v3m6-3v3m5-14h3m-3 5h3M1 9h3m-3 5h3"/>
       <b:case value='microphone'/><path d="M5 12a1 1 0 0 0 14 0m-7 7v4m-4 0h8M9 12a1 1 0 0 0 6 0V4a1 1 0 0 0-6 0Z"/>
       <b:case value='minus'/><path d="M5 12h14"/>
       <b:case value='mobile'/><rect width="16" height="22" x="4" y="1" rx="3"/><path d="M10 19h4"/>
