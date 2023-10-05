@@ -24,7 +24,7 @@ async function processSvgFile (file) {
   try {
     const files = await fs.readdir(dir.icons)
     const items = await Promise.all(files.map(file => processSvgFile(file)))
-    const distDir = path.join(dir.variants, 'svg-includable.xml')
+    const distDir = path.join(dir.variants, 'icons.xml')
 
     let includable = `<b:includable id='@meteor'>
   <svg expr:class='"i i-" + data:icon' viewBox='0 0 24 24'>
@@ -37,7 +37,7 @@ async function processSvgFile (file) {
 
     includable += items.join('')
     includable += `
-      <b:default/><circle cx="12" cy="12" r="10"/>
+      <b:default/><b:attr expr:value='data:icon' name='data-i'/><circle cx="12" cy="12" r="10"/>
     </b:switch>
   </svg>
 </b:includable>`
