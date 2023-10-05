@@ -141,7 +141,6 @@ function filterMenu (button, target) {
       }
 
       filterInput.value = searchValue
-      filterInput.focus()
       list.search(item.innerText)
     })
   })
