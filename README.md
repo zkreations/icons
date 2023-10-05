@@ -1,7 +1,5 @@
 ![cover](https://raw.githubusercontent.com/zkreations/icons/main/.github/cover.png)
 
-<p align="center">Meteor is an open-source icon pack, handcrafted at the code level, to achieve the highest possible optimization.<p>
-
 <p align="center">
   <a href="https://icons.zkreations.com/"><strong> Demo en vivo &rarr;</strong></a>
 </p>
@@ -17,8 +15,6 @@ SVG icons are scalable, weigh much less than images, are editable with CSS, and 
 
 That's why I manually designed the code for each icon in order to make **smart decisions** to achieve the least amount of code possible. This task was made easier thanks to the [svg-path-editor](https://yqnn.github.io/svg-path-editor/) tool. I have named this pack "Meteor icons" and it is **open source**.
 
-![github-path](https://raw.githubusercontent.com/zkreations/icons/main/.github/github-path.png)
-
 ## Installation
 
 ```
@@ -32,8 +28,8 @@ The following CSS code helps to keep the SVG tag cleaner, and it will also allow
 ```css
 .i {
   stroke-width: var(--i-stroke, 2);
-  width: var(--i-size, 20px);
-  height: var(--i-size, 20px);
+  width: var(--i-size, 24px);
+  height: var(--i-size, 24px);
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -48,10 +44,9 @@ You can set the size and thickness with CSS variables:
 | `--i-stroke`     | `2`      
 | `--i-size`       | `20px`   
 
-
 ## Inline SVG
 
-Choose any icon from the [demo page](https://icons.zkreations.com/), click "**Copy code**", and paste the code wherever you need it in your project, that's it.
+Choose any icon from the [demo page](https://icons.zkreations.com/), copy its code, and paste it into your project.
 
 ## SVG Sprite
 
@@ -72,7 +67,7 @@ If your project is a Blogger template, add the [svg-includable.xml](https://gith
 ```xml
 <b:defaultmarkups>
   <b:defaultmarkup type="Common">
-    <!-- svg-includable.xml here -->
+    <!-- icons.xml here -->
   </b:defaultmarkup>
 </b:defaultmarkups>
 ```
