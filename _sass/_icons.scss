@@ -1,7 +1,19 @@
+.i {
+  width: var(--i-size, 24px);
+  height: var(--i-size, 24px);
+  display: block;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
 .icons {
+  --preview-gap: 3px;
   &-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(154px, 1fr));
     gap: var(--layout-gap);
     margin: 0;
   }
@@ -10,13 +22,10 @@
 .icon {
   $this: &;
 
-  display: flex;
   border-radius: .5rem;
   position: relative;
   padding-bottom: 100%;
   border: 1px solid var(--color-border);
-  transition: border-color .3s, color .3s;
-  color: var(--color-title);
   overflow: hidden;
 
   &.copied {
@@ -39,22 +48,24 @@
     }
   }
 
+
   &-preview {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--layout-gap);
-    transition: transform .3s;
+    transition: transform var(--duration);
   }
 
   &-name {
     color: var(--color-name, var(--color-text));
+
+    &:hover {
+      --color-name: var(--accent);
+    }
   }
 
   &-svg {
@@ -66,15 +77,13 @@
   }
 
   &-actions {
-    --gap: 3px;
     position: absolute;
     z-index: 10;
-    left: var(--gap);
-    right: var(--gap);
-    bottom: var(--gap);
     display: flex;
-    gap: var(--gap);
-    transition: transform .3s, opacity .3s;
+    inset: auto var(--preview-gap) var(--preview-gap);
+    gap: var(--preview-gap);
+    transition: transform var(--duration), opacity var(--duration);
+    --i-size: 16px;
   }
 }
 
@@ -86,10 +95,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color .3s;
+  transition: background-color var(--duration);
   width: 100%;
-  padding: 0.75rem;
-  --mi-size: 20px;
+  padding: 0.75rem 0;
 
   &:hover {
     background-color: var(--bg-code-hover);

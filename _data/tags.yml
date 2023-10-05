@@ -1,18 +1,18 @@
 adobe: brand
 airplay: video
-alarm-clock: time, alert
-alarm-exclamation: time, alert
-alarm-minus: time, alert
-alarm-plus: time, alert
-alarm-snooze: time, alert
+alarm-clock: time, alerts
+alarm-exclamation: time, alerts
+alarm-minus: time, alerts
+alarm-plus: time, alerts
+alarm-snooze: time, alerts
 album: music, audio
 algolia: brand
 alien: astronomy, ufo
-align-center: text-formatting
-align-left: text-formatting
-align-right: text-formatting
+align-center: writing
+align-left: writing
+align-right: writing
 amazon: brand, shopping
-anchor: maritime, logistics
+anchor: weather, nature, maps
 android: brand
 angle-down: arrows
 angle-left: arrows
@@ -48,10 +48,11 @@ badge-check: business, shopping
 bag-shopping: shopping, maps
 bars-filter: editing, coding, code
 bars-sort: editing, coding, code
-bars: menu, editing, justify, text-formatting
+bars: menu, editing, justify, writing
+bilibili: brand, social
 binance: brand
 blogger: brand
-bolt: photos-images, weather, energy
+bolt: photos, images, weather, energy
 book-open: education, business, maps, writing
 book: education, business, maps, writing
 bookmark-alt: education, business, maps, writing
@@ -63,13 +64,14 @@ brackets-curly: coding, code
 brackets-round: coding, code
 brackets: coding, code
 broom: household, cleaning, design
-bullhorn: communication, business, shopping, marketing, political
+bullhorn: communication, business, shopping
 calendar: time, business, shapes
+carrot: food, nature
 cart-shopping: shopping, maps
 cassette-tape: music, audio
-chain: editing, text-formatting, writing
-check-double: editing, text-formatting, writing
-check: editing, text-formatting, writing
+chain: editing, writing, writing
+check-double: editing, writing, writing
+check: editing, writing, writing
 chevron-down: arrows
 chevron-left: arrows
 chevron-right: arrows
@@ -78,11 +80,11 @@ chevrons-down: arrows
 chevrons-left: arrows
 chevrons-right: arrows
 chevrons-up: arrows
-circle-check: editing, text-formatting, writing
-circle-exclamation: alert
-circle-xmark: alert, mathematics
+chrome: brand
+circle-check: editing, writing, writing
+circle-exclamation: alerts
+circle-xmark: alerts, mathematics
 circle: shapes
-circles: shapes
 clock-rotate: arrows, time
 clock: time
 cloud: weather, connectivity
@@ -91,75 +93,99 @@ codepen: brand
 codesandbox: brand
 coffee: food
 coinbase: brand
-columns-3: text-formatting, design, layout
-columns: text-formatting, design, layout
-command: editing, text-formatting
+columns-3: writing, design, layout
+columns: writing, design, layout
+command: editing, writing
 comment-dots: communication
 comment: communication, shapes
 compact-disc: music, audio
-compress: video, photos-images
+compress: video, photos, images
 copy: business, design, files
 copyright: business
 credit-card: money, currency, shopping
 cube: editing, design, coding, code
-desktop: devices-hardware
+desktop: devices, hardware
 deviantart: brand, social
+devices: devices, hardware
+dice: games, gambling, gaming
 disc: music, audio, git
 discord: brand, social
 disqus: brand
 dollar: money, currency, shopping
 download-cloud: arrows, connectivity
-download: arrows, devices-hardware
+download: arrows, connectivity
 dribbble: brand
-droplet: photos-images, design, maps
+droplet: photos, images, design, maps, weather, nature
 ellipsis-vertical: editing
 ellipsis: editing
 envelope: communication, business, writing, email
-equals: mathematics
+equals: mathematics, writing
 euro: money, currency, shopping
-expand: video, photos-images
+expand: video, photos, images
+eye: security, accessibility
+face-angry: emoji, faces, emotions
+face-frown: emoji, faces, emotions
+face-laugh: emoji, faces, emotions
+face-meh-blank: emoji, faces, emotions
+face-meh: emoji, faces, emotions
+face-smile: emoji, faces, emotions
 facebook-alt: brand, social
 facebook: brand, social
+feather: writing, communication, business
 figma: brand
-file-glitch: business, files, coding, code, writing
-file-search: business, files, coding, code, writing
+file-lines: business, files, coding, writing
+file-minus: business, files, coding, writing
+file-plus: business, files, coding, writing
+file-search: business, files, coding, writing
 file: business, files, coding, code, writing
-film: video, photos-images
+film: video, photos, images
 filter: coding, code, science
 fingerprint: security, accessibility
 fire: nature, maps, energy, science, camping
 flipboard: brand
+floppy-disk: devices, hardware, files, writing, save
+folder-minus: business, files, coding, writing
+folder-plus: business, files, coding, writing
+folder-search: business, files, coding, writing
+folder: business, files, coding, writing
 forward: video, music, audio
-gear: cog
+gamepad-modern: games, gaming
+gamepad: games, gaming
+gear: cog, settings
 get-pocket: brand, social
+ghost: gaming, games, halloween
 git-branch: coding, code
 git-commit: coding, code
 git-fork: coding, code
 git-merge: coding, code
 git-pull: coding, code
-github: brand
-gitlab: brand
-globe-stand: education
+github: brand, coding, code
+gitlab: brand, coding, code
 globe: business, connectivity, astronomy, maps
+gohugo: brand
 google-drive: brand
 google-play: brand
 google: brand
-grip-dots-vertical: editing, text-formatting, writing
-grip-dots: editing, text-formatting, writing
+grip-dots-vertical: editing, writing, writing
+grip-dots: editing, writing, writing
 gumroad: brand
-headphones: devices-hardware, music, audio
+headphones: devices, hardware, music, audio
 heart: shapes
+hexagon: shapes
 home: business, maps
-image: photos-images, design, maps
-images: photos-images, design, maps
-indent: text-formatting, writing
+image: photos, images, design, maps
+images: photos, images, design, maps
+indent: writing, writing
 instagram: brand, social
-key-skeleton: security, science, accessibility
+key-skeleton: security, accessibility
+key: security, accessibility
 language: communication, business, writing
-layout: text-formatting, design, layout
-link: editing, text-formatting, writing, chain
+laptop: devices, hardware, business
+laravel: brand
+layout: writing, design, layout
+link: editing, writing, writing, chain
 linkedin: brand, social
-list: text-formatting, writing
+list: writing, writing
 location-crosshairs: location, maps
 location-dot: location, maps
 location: location, maps
@@ -171,56 +197,65 @@ message-dots: communication, comments
 message: communication, comments
 meta: brand
 meteor: weather, nature, astronomy
-minus: mathematics, editing, maps
+microchip: devices, hardware, science
+microphone: devices, hardware, music, audio
+minus: mathematics, editing, maps, writing
+mobile: devices, hardware, business
 moon: weather, nature, astronomy
+music-note: music, audio
+music: music, audio
 newspaper: writing, communication, maps
 open-source: brand
 openai: brand
-outdent: editing, text-formatting, writing
+outdent: editing, writing, writing
 paint-roller: design, writing, communication, business
+palette: design, writing, communication, business
 paper-plane: communication, writing
-paperclip-vertical: communication, writing
-paperclip: editing, text-formatting, writing, business
+paperclip: editing, writing, writing, business
 patreon: brand
 pause: video, music, audio
 paypal: brand
 pencil: design, writing, communication, business
 pinterest: brand, social
 play: video, music, audio
-plug: devices-hardware, maps, energy
-plus: add, mathematics, editing, maps
-power: devices-hardware, energy
+plug: devices, hardware, maps, energy
+plus: add, mathematics, editing, maps, writing
+power: devices, hardware, energy
 quote-left: communication, writing
 quote-right: communication, writing
-radio: devices-hardware, music, audio
+radio: music, audio
 reddit: brand, social
 rhombus: shapes
-rows: text-formatting, design, layout
+rows: writing, design, layout
 rss: connectivity, communication
 search: maps
-shapes: education
 share: social
+shield: security, accessibility
 shuffle: music, audio, video, arrows
 sidebar: design, layout
-square-exclamation: alert
+soundcloud: brand
+sparkle: shapes, gaming, weather, halloween, astronomy
+sparkles: shapes, gaming, weather, halloween, astronomy
+spotify: brand
+square-exclamation: alerts
 square: shapes
-squares: shapes
 star: astronomy, shapes
 sterling: money, currency, shopping
 sun: spinner, weather, nature
-table-layout: editing, text-formatting, writing
-table-list: editing, text-formatting, writing
+table-layout: editing, writing, writing
+table-list: editing, writing, writing
 tag: business, shopping
 telegram: brand, social
 terminal: coding, code
-text: editing, text-formatting, writing
+text: editing, writing, writing
 threads: brand, social
 thumbs-down: hands, shopping
 thumbs-up: hands, shopping
 tiktok: brand, social
-trash-can: editing, text-formatting, writing
-trash: editing, text-formatting, writing
-triangle-exclamation: alert
+trash-can: editing, writing, writing
+trash: editing, writing, writing
+trello: brand
+triangle-exclamation: alerts
 triangle: shapes
 tumblr: brand, social
 turn-down-left: arrows
@@ -231,13 +266,13 @@ turn-right-down: arrows
 turn-right-up: arrows
 turn-up-left: arrows
 turn-up-right: arrows
-tv-retro: household, devices-hardware
-tv: household, devices-hardware
+tv-retro: household, devices, hardware
+tv: household, devices, hardware
+twitch: brand, social
 twitter: brand, social
-ufo: astronomy
-unlink: editing, text-formatting, writing, chain
-upload-cloud: arrows, connectivity,
-upload: arrows, devices-hardware
+unlink: editing, writing, writing, chain
+upload-cloud: arrows, connectivity
+upload: arrows, devices, hardware, connectivity
 usdt: money, currency, shopping
 user: people
 vinyl-disc: music, audio
@@ -247,6 +282,7 @@ volume-high: music, audio, video
 volume-low: music, audio, video
 volume-off: music, audio, video
 volume-xmark: music, audio, video
+wave-lines: mathematics, science
 wave-pulse: mathematics, science
 wave-square: mathematics, science
 wave-triangle: mathematics, science
@@ -254,7 +290,6 @@ wave: mathematics, science
 whatsapp: brand, social
 wind: weather, nature, energy
 windows: brand
-xmark: close, error, alert, editing, mathematics
-yin-yang: spinners, religion
+wordpress: brand
+xmark: close, error, alerts, editing, mathematics, writing
 youtube: brand, social
-zenofm: brand

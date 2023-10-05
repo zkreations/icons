@@ -1,19 +1,14 @@
 {% assign tags = site.data.tags[include.icon.basename] | split: ", " | join " " %}
 <li class="icon copy-block">
   <div class="icon-actions">
-    <button class="action copy-name">
-      <svg class="i i-text"><use xlink:href="assets/svg-sprite.svg#text"></use></svg>
-    </button>
-    <button class="action copy-svg">
-      <svg class="i i-copy"><use xlink:href="assets/svg-sprite.svg#copy"></use></svg>
-    </button>
-    <a class="action action-download" href="{{ include.icon.path }}" download>
-      <svg class="i i-download"><use xlink:href="assets/svg-sprite.svg#download"></use></svg>
-    </a>
+    <button class="action copy-name" aria-label="Copy icon name"></button>
+    <button class="action copy-svg" aria-label="Copy icon SVG"></button>
+    <button class="action copy-html" aria-label="Copy icon HTML"></button>
+    <a class="action action-download" href="{{ include.icon.path }}" download aria-label="Download icon"></a>
   </div>
   <div class="icon-preview">
     <span class="icon-svg">
-      <svg class="i i-{{ include.icon.basename }}"><use xlink:href="assets/svg-sprite.svg#{{ include.icon.basename }}"></use></svg>
+      {%- include_relative {{ include.icon.path }} -%}
     </span>
     <span class="icon-name">{{ include.icon.basename }}</span>
     <span class="icon-tags">{{ tags }}</span>

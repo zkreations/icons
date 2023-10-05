@@ -10,5 +10,42 @@ exclude:
   - Gemfile.lock
   - node_modules/
 
+ignored_categories:
+  - alerts
+  - accessibility
+  - mathematics
+  - layout
+  - editing
+  - comments
+  - git
+  - justify
+  - household
+  - hands
+  - music
+  - devices
+  - email
+  - faces
+  - emotions
+  - gambling
+  - games
+  - menu
+  - moving
+  - error
+  - close
+  - people
+  - add
+  - chain
+  - cog
+  - coding
+  - camping
+  - ufo
+  - spinner
+  - settings
+  - halloween
+  - images
+  - business
+  - cleaning
+  - save
+
 sass:
     style: compressed

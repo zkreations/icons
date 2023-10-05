@@ -1,14 +1,35 @@
 {% assign total = site.static_files | where_exp: "file", "file.path contains 'assets/icons'" | size %}
+{% assign categories = [] %}
+{% assign ignored_categories = site.ignored_categories | default: [] %}
+
+{% for tag in site.data.tags %}
+  {% assign tag_categories = tag[1] | split: ', ' %}
+  {% assign categories = categories | concat: tag_categories | uniq %}
+{% endfor %}
+
+{% assign categories = categories | push: "all" %}
+{% assign categories = categories | sort %}
+
 <div class="icons container" id="js-icons">
   <div class="search-form">
-    <input type="text" class="search-input search" placeholder="Search {{ total }} icons"/>
-    {% include_relative assets/icons/search.svg %}
+    <div class="search-form-wrapper">
+      {%- include_relative assets/icons/search.svg -%}
+      <input type="text" id="js-search-input" class="search-input search" placeholder="Search {{ total }} icons"/>
+      <button id="search-filter" class="search-filter">Category</button>
+    </div>
+    <ul id="js-search-filter" class="search-filter-list">
+      {%- for category in categories -%}
+        {%- unless ignored_categories contains category -%}
+          <li><a class="search-filter-item" href="#{{ category }}">{{ category }}</a></li>
+        {%- endunless -%}
+      {%- endfor -%}
+    </ul>
   </div>
   <ul class="icons-grid list">
-    {% for file in site.static_files %}
-      {% if file.path contains 'icons/' %}
-        {% include_cached icon.html icon=file %}
-      {% endif %}
-    {% endfor %}
+    {%- for file in site.static_files -%}
+      {%- if file.path contains 'icons/' -%}
+        {%- include_cached icon.html icon=file -%}
+      {%- endif -%}
+    {%- endfor -%}
   </ul>
 </div>
