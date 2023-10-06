@@ -62,7 +62,7 @@ Add the [svg-sprite.svg](https://github.com/zkreations/icons/blob/main/variants/
 
 ## Blogger
 
-If your project is a Blogger template, add the [svg-includable.xml](https://github.com/zkreations/icons/blob/main/variants/svg-includable.xml) inclusion. To include it, you will need `b:defaultmarkups` tags, for example:
+If your project is a Blogger template, add the [icons.xml](https://github.com/zkreations/icons/blob/main/variants/icons.xml) inclusion. To include it, you will need `b:defaultmarkups` tags, for example:
 
 ```xml
 <b:defaultmarkups>
