@@ -1,6 +1,6 @@
 {
   "name": "meteor-icons",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Handcrafted line by line, for as little code as possible",
   "scripts": {
     "build": "npm-run-all --sequential build:*",
