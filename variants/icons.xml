@@ -224,6 +224,7 @@
       <b:case value='pause'/><path d="M5 4h4v16H5Zm10 0h4v16h-4Z"/>
       <b:case value='paypal'/><path d="m6 22 4-16h7a1 1 0 0 1 0 11h-4.7L11 22Zm1-4H2L6 2h7a1 1 0 0 1 0 11H8.3"/>
       <b:case value='pencil'/><path d="M16 4a1 1 0 0 1 3 3L7 19l-4 1 1-4zm-4 16h9"/>
+      <b:case value='pexels'/><path d="M4 2v20h8v-6h1a1 1 0 0 0 0-14Z"/>
       <b:case value='pinterest'/><circle cx="12" cy="12" r="11"/><path d="m8 22 3-11a1 1 0 0 0 5 5.5A6 6 0 1 0 6 12"/>
       <b:case value='play'/><path d="m7 3 14 9-14 9z"/>
       <b:case value='plug'/><path d="M8 2v5m8-5v5M5 7v3a1 1 0 0 0 14 0V7zm7 10v5"/>
@@ -283,6 +284,7 @@
       <b:case value='upload'/><path d="m7 8 5-5 5 5m-5 7V3m10 12v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4"/>
       <b:case value='usdt'/><path d="M5 4h14m-7 0v6m0 10v-6M8 9a8 2.7 0 1 0 8 0"/>
       <b:case value='user'/><circle cx="12" cy="6" r="4"/><path d="M21 22a1 1 0 0 0-18 0Z"/>
+      <b:case value='vimeo'/><path d="M1 7.5q9-10 10 1t5 2q1.8-4.1-2.5-3 1.5-5 6.5-5t2 7-8 10.6-6.8-3.6-2.6-8-2.6.6Z"/>
       <b:case value='vinyl-disc'/><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><path d="M12 12h0"/>
       <b:case value='visual-studio-code'/><path d="m12 12 5 3.5v-7Zm-8 6-3-3 3.4-3L1 9l3-3 4 2.9L17 1l6 3v16l-6 3-9-7.9Z"/>
       <b:case value='vk'/><rect width="22" height="22" x="1" y="1" rx="5"/><path d="M7 8.5a7 8 0 0 0 5 7v-7m5 0Q16 11 13 12q3 1 4 3.5M12 12h1"/>
@@ -296,6 +298,7 @@
       <b:case value='wave-triangle'/><path d="m2 12 5 7L17 5l5 7"/>
       <b:case value='wave'/><path d="M2 12c2 9 8 9 10 0s8-9 10 0"/>
       <b:case value='whatsapp'/><circle cx="9" cy="9" r="1"/><circle cx="15" cy="15" r="1"/><path d="M8 9a7 7 0 0 0 7 7m-9 5.2A11 11 0 1 0 2.8 18L2 22Z"/>
+      <b:case value='wikipedia'/><path d="M1 5h3m3.5 0h3m3 0h3M20 5h3M2.5 5l6 15 6-15m-5 0 6 15 6-15"/>
       <b:case value='wind'/><path d="M12 4a3 3 0 1 1 3 4H2m3 12a3 3 0 1 0 3-4H2m15 0a3 3 0 1 0 3-4H2"/>
       <b:case value='windows'/><path d="M2 12h20m-11.3 8.3V3.7M2 5l20-3v20L2 19Z"/>
       <b:case value='wordpress'/><path d="M1 8h5M2.8 8 8 21l4-10M9 8h5m-3.2 0L16 21l3.2-7.5C25 0 14 2 17 7s2.2 6.5 2.2 6.5M8 21l4-10"/>
