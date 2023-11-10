@@ -148,6 +148,23 @@ function filterMenu (button, target) {
   document.addEventListener('click', clickOutside)
 }
 
+function filterWithHash () {
+  const hash = window.location.hash
+  const hashValue = hash.replace('#', '')
+
+  if (!hashValue) return
+
+  if (hashValue === 'all') {
+    filterInput.value = ''
+    list.search()
+    return
+  }
+
+  filterInput.value = hashValue
+  list.search(hashValue)
+}
+
+filterWithHash()
 filterMenu(filter, filterList)
 
 window.addEventListener('DOMContentLoaded', (event) => {
