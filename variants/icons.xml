@@ -303,7 +303,7 @@
       <b:case value='windows'/><path d="M2 12h20m-11.3 8.3V3.7M2 5l20-3v20L2 19Z"/>
       <b:case value='wordpress'/><path d="M1 8h5M2.8 8 8 21l4-10M9 8h5m-3.2 0L16 21l3.2-7.5C25 0 14 2 17 7s2.2 6.5 2.2 6.5M8 21l4-10"/>
       <b:case value='x-alt'/><path d="M4.5 2a7 7 0 0 0 0 10L7 14.5 1.5 20a7 7 0 0 0 10 0L22 9.5 19.5 7a3.5 3.5 0 0 0-5 0L12 9.5ZM12 19.5l.5.5a7 7 0 0 0 10 0L17 14.5"/>
-      <b:case value='x'/><path d="m2 22 8.2-8.2m3.6-3.6L22 2M8 2H2l14 20h6Z"/>
+      <b:case value='x'/><path d="m3 21 7.5-7.5m3-3L21 3M8 3H3l13 18h5Z"/>
       <b:case value='xmark'/><path d="M18 6 6 18M6 6l12 12"/>
       <b:case value='youtube'/><path d="M1.5 17q-1-5.5 0-10Q1.9 4.8 4 4.5q8-1 16 0 2.1.3 2.5 2.5 1 4.5 0 10-.4 2.2-2.5 2.5-8 1-16 0-2.1-.3-2.5-2.5Zm8-8.5v7l6-3.5Z"/>
       <b:default/><b:attr expr:value='data:icon' name='data-i'/><circle cx="12" cy="12" r="10"/>
