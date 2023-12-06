@@ -88,6 +88,7 @@ circle: shapes
 clock-rotate: arrows, time
 clock: time
 cloud: weather, connectivity
+clover: shapes, nature
 code: coding, code
 codepen: brand
 codesandbox: brand
@@ -100,6 +101,7 @@ comment-dots: communication
 comment: communication, shapes
 compact-disc: music, audio
 compress: video, photos, images
+cookie: food
 copy: business, design, files
 copyright: business
 credit-card: money, currency, shopping
@@ -131,7 +133,7 @@ face-meh: emoji, faces, emotions
 face-smile: emoji, faces, emotions
 facebook-alt: brand, social
 facebook: brand, social
-feather: writing, communication, business
+feather: writing, communication, business, nature
 figma: brand
 file-lines: business, files, coding, writing
 file-minus: business, files, coding, writing
@@ -185,6 +187,7 @@ language: communication, business, writing
 laptop: devices, hardware, business
 laravel: brand
 layout: writing, design, layout
+leaf: nature, energy
 link: editing, writing, writing, chain
 linkedin: brand, social
 list: writing, writing
@@ -219,6 +222,7 @@ pause: video, music, audio
 paypal: brand
 pencil: design, writing, communication, business
 pexels: brand
+pin: maps, business, thumbtack, writing
 pinterest: brand, social
 play: video, music, audio
 plug: devices, hardware, maps, energy
@@ -236,9 +240,10 @@ share: social
 shield: security, accessibility
 shuffle: music, audio, video, arrows
 sidebar: design, layout
+skull: halloween, death, danger, games, gaming
 soundcloud: brand
-sparkle: shapes, gaming, weather, halloween, astronomy
-sparkles: shapes, gaming, weather, halloween, astronomy
+sparkle: shapes, gaming, weather, halloween, astronomy, games
+sparkles: shapes, gaming, weather, halloween, astronomy, games
 spotify: brand
 square-exclamation: alerts
 square: shapes
