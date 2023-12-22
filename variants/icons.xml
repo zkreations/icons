@@ -165,6 +165,7 @@
       <b:case value='gear'/><circle cx="12" cy="12" r="3"/><path d="M10 21a1 1 0 0 0 4 0 1.8 1.8 0 0 1 3-1.3 1 1 0 0 0 2.8-2.7 1.8 1.8 0 0 1 1.2-3 1 1 0 0 0 0-4 1.8 1.8 0 0 1-1.2-3A1 1 0 0 0 17 4.4 1.8 1.8 0 0 1 14 3a1 1 0 0 0-4 0 1.8 1.8 0 0 1-3 1.4A1 1 0 0 0 4.2 7 1.8 1.8 0 0 1 3 10a1 1 0 0 0 0 4 1.8 1.8 0 0 1 1.2 3A1 1 0 0 0 7 19.7a1.8 1.8 0 0 1 3 1.3Z"/>
       <b:case value='get-pocket'/><path d="M21 3a2 2 0 0 1 2 2v6a9 9 0 0 1-22 0V5a2 2 0 0 1 2-2ZM7 10l5 4 5-4"/>
       <b:case value='ghost'/><path d="M15 9v1m6 0a1 1 0 0 0-18 0v13c5-6 6 0 9 0s4-6 9 0ZM9 9v1"/>
+      <b:case value='gift'/><path d="M12 22V7q-2-5-5-5a1 1 0 0 0 0 5m5 0q2-5 5-5a1 1 0 0 1 0 5m5 0v5H2V7ZM4 12v10h16V12"/>
       <b:case value='git-branch'/><circle cx="6" cy="5" r="3"/><circle cx="18" cy="12" r="3"/><circle cx="6" cy="19" r="3"/><path d="M6 8v8m11-1s-2 4-8 4"/>
       <b:case value='git-commit'/><circle cx="12" cy="12" r="4"/><path d="M1.1 12H7m10 0h6"/>
       <b:case value='git-fork'/><circle cx="6" cy="5" r="3"/><circle cx="18" cy="5" r="3"/><circle cx="12" cy="19" r="3"/><path d="M6 8v1a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V8m-6 4v4"/>
