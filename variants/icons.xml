@@ -114,6 +114,7 @@
       <b:case value='copy'/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><rect width="13" height="13" x="9" y="9" rx="2"/>
       <b:case value='copyright'/><circle cx="12" cy="12" r="9"/><path d="M14.6 9a4 4 0 1 0 0 6"/>
       <b:case value='credit-card'/><rect width="22" height="16" x="1" y="4" rx="2"/><path d="M1 9h22M5 16h2m3 0h5"/>
+      <b:case value='cross'/><path d="M15 2H9v7H2v6h7v7h6v-7h7V9h-7Z"/>
       <b:case value='cube'/><path d="m12 2 9 5v10l-9 5-9-5V7zM3 7l9 5 9-5m-9 5v10"/>
       <b:case value='desktop'/><rect width="22" height="15" x="1" y="3" rx="3"/><path d="M8 21h8M1 13h22"/>
       <b:case value='deviantart'/><path d="M9.4 11H5V6h7.5L15 2h4v4l-4.4 7H19v5h-7.5L9 22H5v-4Z"/>
