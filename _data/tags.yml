@@ -52,6 +52,7 @@ bars: menu, editing, justify, writing
 bilibili: brand, social
 binance: brand
 blogger: brand
+bluesky: brand, social
 bolt: photos, images, weather, energy
 book-open: education, business, maps, writing
 book: education, business, maps, writing
@@ -105,6 +106,7 @@ cookie: food
 copy: business, design, files
 copyright: business
 credit-card: money, currency, shopping
+cross: shapes, mathematics, writing
 cube: editing, design, coding, code
 desktop: devices, hardware
 deviantart: brand, social
@@ -156,6 +158,7 @@ gamepad: games, gaming
 gear: cog, settings
 get-pocket: brand, social
 ghost: gaming, games, halloween
+gift: shopping, christmas, maps
 git-branch: coding, code
 git-commit: coding, code
 git-fork: coding, code
@@ -262,6 +265,8 @@ thumbs-up: hands, shopping
 tiktok: brand, social
 trash-can: editing, writing, writing
 trash: editing, writing, writing
+tree-deciduous: nature, camping, maps
+tree: nature, camping, maps
 trello: brand
 triangle-exclamation: alerts
 triangle: shapes
