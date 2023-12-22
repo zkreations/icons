@@ -46,6 +46,8 @@ ignored_categories:
   - business
   - cleaning
   - save
+  - thumbtack
+  - christmas
 
 sass:
     style: compressed
