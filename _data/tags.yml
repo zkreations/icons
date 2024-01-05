@@ -43,6 +43,7 @@ arrow-up: arrows
 arrows-rotate: arrows
 at: communication, email
 atom: science, energy
+backward-step: video, music, audio
 backward: video, music, audio
 badge-check: business, shopping
 bag-shopping: shopping, maps
@@ -152,6 +153,7 @@ folder-minus: business, files, coding, writing
 folder-plus: business, files, coding, writing
 folder-search: business, files, coding, writing
 folder: business, files, coding, writing
+forward-step: video, music, audio
 forward: video, music, audio
 gamepad-modern: games, gaming
 gamepad: games, gaming
@@ -193,6 +195,7 @@ layout: writing, design, layout
 leaf: nature, energy
 link: editing, writing, writing, chain
 linkedin: brand, social
+list-music: music, audio
 list: writing, writing
 location-crosshairs: location, maps
 location-dot: location, maps
