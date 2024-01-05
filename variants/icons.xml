@@ -51,6 +51,7 @@
       <b:case value='arrows-rotate'/><path d="M21.5 9a10 10 0 0 0-19 0M2 5v4h4m12 6h4v4M2.5 15a10 10 0 0 0 19 0"/>
       <b:case value='at'/><circle cx="12" cy="12" r="4"/><path d="M16 12v1a1 1 0 0 0 6 0v-1a10 10 0 1 0-4 8"/>
       <b:case value='atom'/><circle cx="12" cy="12" r="2"/><path d="M8 16C-4 4 4-4 16 8s4 20-8 8m8 0C4 28-4 20 8 8s20-4 8 8"/>
+      <b:case value='backward-step'/><path d="M6 5v14M18 4v16L8 12Z"/>
       <b:case value='backward'/><path d="M22 5v14l-9-7ZM11 5v14l-9-7Z"/>
       <b:case value='badge-check'/><path d="m8.5 12.5 2 2 5-5m4.3 5.7a1 1 0 0 0 0-6.4 1 1 0 0 0-4.6-4.6 1 1 0 0 0-6.4 0 1 1 0 0 0-4.6 4.6 1 1 0 0 0 0 6.4 1 1 0 0 0 4.6 4.6 1 1 0 0 0 6.4 0 1 1 0 0 0 4.6-4.6Z"/>
       <b:case value='bag-shopping'/><path d="M3 7v11a4 4 0 0 0 4 4h10a4 4 0 0 0 4-4V7Zm13 3V6a4 4 0 0 0-8 0v4"/>
@@ -160,6 +161,7 @@
       <b:case value='folder-plus'/><path d="M12 17v-6m-3 3h6M9 3H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-9Z"/>
       <b:case value='folder-search'/><circle cx="15.5" cy="14.5" r="3.5"/><path d="m18 17 5 5m-1-8V8a2 2 0 0 0-2-2h-9L9 3H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11"/>
       <b:case value='folder'/><path d="M9 3H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-9Z"/>
+      <b:case value='forward-step'/><path d="M18 5v14M6 4v16l10-8Z"/>
       <b:case value='forward'/><path d="M2 5v14l9-7Zm11 0v14l9-7Z"/>
       <b:case value='gamepad-modern'/><path d="M9 16h6a1 1 0 0 0 0-12H9a6 6 0 0 0-5.9 5l-1.9 6.9A3 3 0 0 0 6 19.2Zm6 0 3 3.3a3 3 0 0 0 4.8-3.4L20.9 9M8 8v4m-2-2h4m5 0h2"/>
       <b:case value='gamepad'/><rect width="22" height="14" x="1" y="5" rx="3"/><path d="M7 10v4m-2-2h4m6 1h0m3-2h0"/>
@@ -201,6 +203,7 @@
       <b:case value='leaf'/><path d="M2 21q1-6 6-7t6-3m5-9q-2 4-8 4a1 1 0 0 0 0 14 10 11 0 0 0 8-18"/>
       <b:case value='link'/><path d="M9 13a5 5 0 0 0 8 1l4-4a1 1 0 0 0-7-7l-2 2m3 6a5 5 0 0 0-8-1l-4 4a1 1 0 0 0 7 7l2-2"/>
       <b:case value='linkedin'/><circle cx="4" cy="4" r="2"/><path d="M2 9h4v12H2Zm20 12h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 12 0Z"/>
+      <b:case value='list-music'/><path d="M16 8h6V3h-6v15M2 3h9M2 8h9m-9 5h3"/><circle cx="12" cy="18" r="4"/>
       <b:case value='list'/><path d="M7 6h14M7 12h14M7 18h14M3 6h0m0 6h0m0 6h0"/>
       <b:case value='location-crosshairs'/><path d="M23 12h-3M4 12H1m11-8V1m0 22v-3"/><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/>
       <b:case value='location-dot'/><circle cx="12" cy="10" r="3"/><path d="m12 23-6-6a9 9 0 1 1 12 0z"/>
@@ -218,7 +221,7 @@
       <b:case value='minus'/><path d="M5 12h14"/>
       <b:case value='mobile'/><rect width="16" height="22" x="4" y="1" rx="3"/><path d="M10 19h4"/>
       <b:case value='moon'/><path d="M21 14a9 9 0 1 1-9-11 7 7 0 0 0 9 11z"/>
-      <b:case value='music-note'/><path d="m12 9 6-2V2l-6 2v14"/><circle cx="8" cy="18" r="4"/>
+      <b:case value='music-note'/><path d="M12 8h6V3h-6v15"/><circle cx="8" cy="18" r="4"/>
       <b:case value='music'/><path d="M22 16V2L9 5v13"/><circle cx="5" cy="18" r="4"/><circle cx="18" cy="16" r="4"/>
       <b:case value='newspaper'/><path d="M2 6v13a2 2 0 0 0 4 0V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v13a3 3 0 0 1-3 3H4m7-13h6m-6 4h6m-6 4h6"/>
       <b:case value='open-source'/><path d="M16 21.2a10 10 0 1 0-8 0l2.4-6.1a3.5 3.5 0 1 1 3.2 0Z"/>
