@@ -71,9 +71,9 @@ calendar: time, business, shapes
 carrot: food, nature
 cart-shopping: shopping, maps
 cassette-tape: music, audio
-chain: editing, writing, writing
-check-double: editing, writing, writing
-check: editing, writing, writing
+chain: editing, writing
+check-double: editing, writing
+check: editing, writing
 chevron-down: arrows
 chevron-left: arrows
 chevron-right: arrows
@@ -83,7 +83,7 @@ chevrons-left: arrows
 chevrons-right: arrows
 chevrons-up: arrows
 chrome: brand
-circle-check: editing, writing, writing
+circle-check: editing, writing
 circle-exclamation: alerts
 circle-xmark: alerts, mathematics
 circle: shapes
@@ -125,6 +125,7 @@ ellipsis-vertical: editing
 ellipsis: editing
 envelope: communication, business, writing, email
 equals: mathematics, writing
+eraser: editing, writing, design
 euro: money, currency, shopping
 expand: video, photos, images
 eye: security, accessibility
@@ -175,8 +176,8 @@ google-play: brand
 google: brand
 grid-plus: writing, design, layout
 grid: writing, design, layout
-grip-dots-vertical: editing, writing, writing
-grip-dots: editing, writing, writing
+grip-dots-vertical: editing, writing
+grip-dots: editing, writing
 gumroad: brand
 headphones: devices, hardware, music, audio
 heart: shapes
@@ -184,7 +185,7 @@ hexagon: shapes
 home: business, maps
 image: photos, images, design, maps
 images: photos, images, design, maps
-indent: writing, writing
+indent: writing
 instagram: brand, social
 key-skeleton: security, accessibility
 key: security, accessibility
@@ -193,10 +194,10 @@ laptop: devices, hardware, business
 laravel: brand
 layout: writing, design, layout
 leaf: nature, energy
-link: editing, writing, writing, chain
+link: editing, writing, chain
 linkedin: brand, social
 list-music: music, audio
-list: writing, writing
+list: writing
 location-crosshairs: location, maps
 location-dot: location, maps
 location: location, maps
@@ -215,14 +216,14 @@ mobile: devices, hardware, business
 moon: weather, nature, astronomy
 music-note: music, audio
 music: music, audio
-newspaper: writing, communication, maps
+objects-column: writing, design, layout
 open-source: brand
 openai: brand
-outdent: editing, writing, writing
+outdent: editing, writing
 paint-roller: design, writing, communication, business
 palette: design, writing, communication, business
 paper-plane: communication, writing
-paperclip: editing, writing, writing, business
+paperclip: editing, writing, business
 patreon: brand
 pause: video, music, audio
 paypal: brand
@@ -239,6 +240,8 @@ quote-right: communication, writing
 radio: music, audio
 reddit: brand, social
 rhombus: shapes
+robot: devices, hardware, science, games, gaming
+rows-3: writing, design, layout
 rows: writing, design, layout
 rss: connectivity, communication
 search: maps
@@ -256,18 +259,19 @@ square: shapes
 star: astronomy, shapes
 sterling: money, currency, shopping
 sun: spinner, weather, nature
-table-layout: editing, writing, writing
-table-list: editing, writing, writing
+table-cells: editing, writing
+table-layout: editing, writing
+table-list: editing, writing
 tag: business, shopping
 telegram: brand, social
 terminal: coding, code
-text: editing, writing, writing
+text: editing, writing
 threads: brand, social
 thumbs-down: hands, shopping
 thumbs-up: hands, shopping
 tiktok: brand, social
-trash-can: editing, writing, writing
-trash: editing, writing, writing
+trash-can: editing, writing
+trash: editing, writing
 tree-deciduous: nature, camping, maps
 tree: nature, camping, maps
 trello: brand
@@ -286,7 +290,7 @@ tv-retro: household, devices, hardware
 tv: household, devices, hardware
 twitch: brand, social
 twitter: brand, social
-unlink: editing, writing, writing, chain
+unlink: editing, writing, chain
 upload-cloud: arrows, connectivity
 upload: arrows, devices, hardware, connectivity
 usdt: money, currency, shopping

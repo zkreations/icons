@@ -14,7 +14,6 @@ ignored_categories:
   - alerts
   - accessibility
   - mathematics
-  - layout
   - editing
   - comments
   - git
