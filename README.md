@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zkreations/icons/releases"><img src="https://img.shields.io/npm/v/meteor-icons" alt="Release"></a>
+  <a href="https://www.npmjs.com/package/meteor-icons"><img src="https://img.shields.io/npm/v/meteor-icons" alt="Release"></a>
   <a href="https://github.com/zkreations/icons/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/meteor-icons" alt="LICENSE"></a>
 </p>
 
