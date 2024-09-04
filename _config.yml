@@ -11,6 +11,7 @@ exclude:
   - node_modules/
 
 ignored_categories:
+  - animals
   - alerts
   - accessibility
   - mathematics
